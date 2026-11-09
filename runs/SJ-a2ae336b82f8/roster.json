@@ -1,0 +1,54 @@
+{
+  "revision": "SJ-f29f72bd59ba",
+  "slots": [
+    {
+      "case": "view-1",
+      "group": "RV-01",
+      "replicate": "1",
+      "revision": "18eca1a640c831f7851407d2922d570aab025e0705c380db4d347c8e39930ad0"
+    },
+    {
+      "case": "view-1",
+      "group": "RV-01",
+      "replicate": "2",
+      "revision": "18eca1a640c831f7851407d2922d570aab025e0705c380db4d347c8e39930ad0"
+    },
+    {
+      "case": "view-2",
+      "group": "RV-01",
+      "replicate": "1",
+      "revision": "395ddc6bcaa076b2f2fe0f3111dcc97b93bb7dac3d6fc70b3c5bf27d4a33b7eb"
+    },
+    {
+      "case": "view-2",
+      "group": "RV-01",
+      "replicate": "2",
+      "revision": "395ddc6bcaa076b2f2fe0f3111dcc97b93bb7dac3d6fc70b3c5bf27d4a33b7eb"
+    },
+    {
+      "case": "view-3",
+      "group": "VA-01",
+      "replicate": "1",
+      "revision": "3c978402e0ad449a1ebc81e1662b5b22709f42f476e2db1d63ba98a0f96b99d0"
+    },
+    {
+      "case": "view-3",
+      "group": "VA-01",
+      "replicate": "2",
+      "revision": "3c978402e0ad449a1ebc81e1662b5b22709f42f476e2db1d63ba98a0f96b99d0"
+    },
+    {
+      "case": "view-4",
+      "group": "VA-01",
+      "replicate": "1",
+      "revision": "a96a5a2ad0dee485d4fa7bb15e1ab5a0afd4284c8a46e362d8ccc50d3866b7e4"
+    },
+    {
+      "case": "view-4",
+      "group": "VA-01",
+      "replicate": "2",
+      "revision": "a96a5a2ad0dee485d4fa7bb15e1ab5a0afd4284c8a46e362d8ccc50d3866b7e4"
+    }
+  ],
+  "track": "fig3a"
+}

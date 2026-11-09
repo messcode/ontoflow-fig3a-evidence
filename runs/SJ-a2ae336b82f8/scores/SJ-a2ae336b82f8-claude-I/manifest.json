@@ -1,0 +1,86 @@
+{
+  "arm": "claude",
+  "arm_settings": "native:claude|image:sha256:df18428df8a0f9189c84e7424d214b4c50092af1f9dca5842a00c41c39bda316",
+  "eligibility_reason": "Familiar development cases and single blinded adjudication",
+  "formal_eligible": false,
+  "gold": "rubric:sha256:19a2d50690b124e158692d4be63ab1d2087835a648d305bf35449904c4207a24",
+  "harness": "freeze:sha256:a2ae336b82f8355e82495f53252a3057b08ed2d85c5aebcf623449c8afe7a9f9",
+  "metric": "scientific-decision-evidence-v1",
+  "model": "deepseek-flash",
+  "phase": "independent",
+  "protocol": "scientific-judgment-v1",
+  "roster": "SJ-f29f72bd59ba",
+  "rows": [
+    {
+      "case": "view-1",
+      "group": "RV-01",
+      "replicate": "1",
+      "revision": "18eca1a640c831f7851407d2922d570aab025e0705c380db4d347c8e39930ad0",
+      "status": "completed",
+      "value": 0
+    },
+    {
+      "case": "view-3",
+      "group": "VA-01",
+      "replicate": "1",
+      "revision": "3c978402e0ad449a1ebc81e1662b5b22709f42f476e2db1d63ba98a0f96b99d0",
+      "status": "completed",
+      "value": 1
+    },
+    {
+      "case": "view-4",
+      "group": "VA-01",
+      "replicate": "1",
+      "revision": "a96a5a2ad0dee485d4fa7bb15e1ab5a0afd4284c8a46e362d8ccc50d3866b7e4",
+      "status": "completed",
+      "value": 1
+    },
+    {
+      "case": "view-1",
+      "group": "RV-01",
+      "replicate": "2",
+      "revision": "18eca1a640c831f7851407d2922d570aab025e0705c380db4d347c8e39930ad0",
+      "status": "completed",
+      "value": 0
+    },
+    {
+      "case": "view-3",
+      "group": "VA-01",
+      "replicate": "2",
+      "revision": "3c978402e0ad449a1ebc81e1662b5b22709f42f476e2db1d63ba98a0f96b99d0",
+      "status": "completed",
+      "value": 1
+    },
+    {
+      "case": "view-2",
+      "group": "RV-01",
+      "replicate": "2",
+      "revision": "395ddc6bcaa076b2f2fe0f3111dcc97b93bb7dac3d6fc70b3c5bf27d4a33b7eb",
+      "status": "completed",
+      "value": 0
+    },
+    {
+      "case": "view-4",
+      "group": "VA-01",
+      "replicate": "2",
+      "revision": "a96a5a2ad0dee485d4fa7bb15e1ab5a0afd4284c8a46e362d8ccc50d3866b7e4",
+      "status": "completed",
+      "value": 1
+    },
+    {
+      "case": "view-2",
+      "group": "RV-01",
+      "replicate": "1",
+      "revision": "395ddc6bcaa076b2f2fe0f3111dcc97b93bb7dac3d6fc70b3c5bf27d4a33b7eb",
+      "status": "completed",
+      "value": 1
+    }
+  ],
+  "run": "SJ-a2ae336b82f8-claude",
+  "score": "SJ-a2ae336b82f8-claude-I",
+  "scorer": "blinded-review:sha256:c3e2e9b35afcddad72c9ca4a8dd823a21fe16efff72550d89c5e91e320731a07",
+  "selection": "Four frozen scientific evidence views, two replicates",
+  "shared_settings": "prompt_roster=SJ-f29f72bd59ba|budget=5,240s,native-output|replicates=1,2|feedback=none",
+  "system": "claude",
+  "track": "fig3a"
+}

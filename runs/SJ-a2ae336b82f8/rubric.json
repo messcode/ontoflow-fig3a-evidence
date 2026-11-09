@@ -1,0 +1,37 @@
+{
+  "SJ-a2ae336b82f8-biomni-I": {
+    "counts": {
+      "decision_correct": 5,
+      "evidence_correct": 8
+    },
+    "manifest_sha256": "29edef4fb670954aeb14cf8af26e813ad8a9ffe6f332f7d6e8ffe55a6cc37caa"
+  },
+  "SJ-a2ae336b82f8-cellvoyager-I": {
+    "counts": {
+      "decision_correct": 4,
+      "evidence_correct": 0
+    },
+    "manifest_sha256": "d89c650d6f535f5cebf053d8e2ef3609cee1fb558477321628b25241c36d2c7e"
+  },
+  "SJ-a2ae336b82f8-claude-I": {
+    "counts": {
+      "decision_correct": 5,
+      "evidence_correct": 7
+    },
+    "manifest_sha256": "a4db92e7637f64795046528f210a479daa920ac2c85c11ea599a6ed6b016545e"
+  },
+  "SJ-a2ae336b82f8-codex-I": {
+    "counts": {
+      "decision_correct": 6,
+      "evidence_correct": 8
+    },
+    "manifest_sha256": "0b85c9052f1ffdc4e6d4c57664dce3f4d43dfb9a33d1fa37395d3f8006c11bad"
+  },
+  "SJ-a2ae336b82f8-codex-ontoflow-I": {
+    "counts": {
+      "decision_correct": 7,
+      "evidence_correct": 8
+    },
+    "manifest_sha256": "4287d24f8240268356447ff1c4460b6ff06d2167553e8e7911e3cb07bdf29a74"
+  }
+}
