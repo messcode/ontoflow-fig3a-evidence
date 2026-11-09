@@ -1,0 +1,86 @@
+{
+  "arm": "codex-static",
+  "arm_settings": "native:codex-static|wrapper:57488fd048d8ebbb6db9483be6cbbc0ff1de2f1747bc1d4d86d1a1e730e85406",
+  "eligibility_reason": "Development only; post-run catalog rejection replay, native output budgets, familiar cases",
+  "formal_eligible": false,
+  "gold": "sha256:8ee7c7d98d8f3b41791975423e4069f50eb240a0f7200bed6981fe2fd93a0dd9",
+  "harness": "freeze:sha256:6b93b6cc7356db0fdfb7f5266e6a76302cdaeb11c208b7013ab07daaaa7e7727",
+  "metric": "scientific-full-strict-binary-v1",
+  "model": "deepseek-flash",
+  "phase": "independent",
+  "protocol": "full-blind-B",
+  "roster": "FB-15d228bf5dab",
+  "rows": [
+    {
+      "case": "view-3",
+      "group": "VA-01",
+      "replicate": "1",
+      "revision": "f6e950e03f197bbd5695d64070c277c3a120f13c0d7e778e1494921ac9d95669",
+      "status": "completed",
+      "value": 0
+    },
+    {
+      "case": "view-4",
+      "group": "VA-01",
+      "replicate": "2",
+      "revision": "ad077af1ef5ab563edee38ed388ada727d7d39f4c37759a7aa8c422d6a2cdda9",
+      "status": "completed",
+      "value": 0
+    },
+    {
+      "case": "view-2",
+      "group": "RV-01",
+      "replicate": "2",
+      "revision": "84089069c9371861ab19f755f6b4ec709a50ed87ecbf024e3e797c94a2bee07e",
+      "status": "completed",
+      "value": 1
+    },
+    {
+      "case": "view-4",
+      "group": "VA-01",
+      "replicate": "1",
+      "revision": "ad077af1ef5ab563edee38ed388ada727d7d39f4c37759a7aa8c422d6a2cdda9",
+      "status": "completed",
+      "value": 0
+    },
+    {
+      "case": "view-3",
+      "group": "VA-01",
+      "replicate": "2",
+      "revision": "f6e950e03f197bbd5695d64070c277c3a120f13c0d7e778e1494921ac9d95669",
+      "status": "completed",
+      "value": 0
+    },
+    {
+      "case": "view-2",
+      "group": "RV-01",
+      "replicate": "1",
+      "revision": "84089069c9371861ab19f755f6b4ec709a50ed87ecbf024e3e797c94a2bee07e",
+      "status": "completed",
+      "value": 0
+    },
+    {
+      "case": "view-1",
+      "group": "RV-01",
+      "replicate": "1",
+      "revision": "0a5c0f5296be0e94ad6a0e78749569bfb7d1de22c6f98a23158dc2f61ffda930",
+      "status": "completed",
+      "value": 0
+    },
+    {
+      "case": "view-1",
+      "group": "RV-01",
+      "replicate": "2",
+      "revision": "0a5c0f5296be0e94ad6a0e78749569bfb7d1de22c6f98a23158dc2f61ffda930",
+      "status": "completed",
+      "value": 0
+    }
+  ],
+  "run": "FB-6b93b6cc7356-codex-static",
+  "score": "FB-6b93b6cc7356-codex-static-I",
+  "scorer": "sha256:3e2465ef7a31c532bc9a9458736d6d02d956a73b292c745db0f65857b26ce750",
+  "selection": "Frozen four views, two planned replicates",
+  "shared_settings": "prompt=sha256:441dc8e3334edd0e46b38f4984dacec416165b1ad6f3a9c30b9605c37833cc41|budget=4+1+1,240s,native-output|replicates=1,2|feedback=sealed-only",
+  "system": "codex-static",
+  "track": "fig3a"
+}

@@ -1,0 +1,54 @@
+{
+  "revision": "FB-15d228bf5dab",
+  "slots": [
+    {
+      "case": "view-1",
+      "group": "RV-01",
+      "replicate": "1",
+      "revision": "0a5c0f5296be0e94ad6a0e78749569bfb7d1de22c6f98a23158dc2f61ffda930"
+    },
+    {
+      "case": "view-1",
+      "group": "RV-01",
+      "replicate": "2",
+      "revision": "0a5c0f5296be0e94ad6a0e78749569bfb7d1de22c6f98a23158dc2f61ffda930"
+    },
+    {
+      "case": "view-2",
+      "group": "RV-01",
+      "replicate": "1",
+      "revision": "84089069c9371861ab19f755f6b4ec709a50ed87ecbf024e3e797c94a2bee07e"
+    },
+    {
+      "case": "view-2",
+      "group": "RV-01",
+      "replicate": "2",
+      "revision": "84089069c9371861ab19f755f6b4ec709a50ed87ecbf024e3e797c94a2bee07e"
+    },
+    {
+      "case": "view-3",
+      "group": "VA-01",
+      "replicate": "1",
+      "revision": "f6e950e03f197bbd5695d64070c277c3a120f13c0d7e778e1494921ac9d95669"
+    },
+    {
+      "case": "view-3",
+      "group": "VA-01",
+      "replicate": "2",
+      "revision": "f6e950e03f197bbd5695d64070c277c3a120f13c0d7e778e1494921ac9d95669"
+    },
+    {
+      "case": "view-4",
+      "group": "VA-01",
+      "replicate": "1",
+      "revision": "ad077af1ef5ab563edee38ed388ada727d7d39f4c37759a7aa8c422d6a2cdda9"
+    },
+    {
+      "case": "view-4",
+      "group": "VA-01",
+      "replicate": "2",
+      "revision": "ad077af1ef5ab563edee38ed388ada727d7d39f4c37759a7aa8c422d6a2cdda9"
+    }
+  ],
+  "track": "fig3a"
+}
