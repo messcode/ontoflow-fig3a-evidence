@@ -1,0 +1,790 @@
+{
+  "track": "fig3a",
+  "protocol": "role-known",
+  "phase": "independent",
+  "roster": "fig3a-24case-sc02note-v1",
+  "run": "fig3a-v3v4-20261107",
+  "score": "V3V4-20261107-v11-I-codex-no-surface",
+  "system": "codex@sha256:6c0f874084579c988cb97f00da856634474846112770d149b890f6ed1556b557",
+  "harness": "ontoflow-fig3a-runner@report-schema:ontoflow.fig3a_multi_arm_report.v0",
+  "arm": "codex_no_surface",
+  "arm_settings": "surface=off",
+  "shared_settings": "fig3a-sc02note-v1|budget=1800s,5000000tok|seeds=20262101,20262102,20262201,20262202|prompt=instruction:sha256:aa9d4b88b9d72d4fcdc7ef410818f216b266e59df6cdd70b27cf6fc2ae9df428|feedback=none",
+  "model": "deepseek-v4-flash",
+  "scorer": "ontoflow.compliant-v1",
+  "gold": "fig3a-24case-oracle@2026-11-05",
+  "metric": "compliant-rate-v1",
+  "selection": "All 24 cases, four pre-scheduled draws, exploratory baseline",
+  "eligibility_reason": "Exploratory role-known baseline; not a signed cohort; pre-#119 publication contract",
+  "formal_eligible": false,
+  "rows": [
+    {
+      "case": "DE-01",
+      "revision": "fig3a-24case-sc02note-v1",
+      "replicate": "v3-abc",
+      "group": "C",
+      "status": "completed",
+      "value": 1
+    },
+    {
+      "case": "DE-02",
+      "revision": "fig3a-24case-sc02note-v1",
+      "replicate": "v3-abc",
+      "group": "C",
+      "status": "completed",
+      "value": 1
+    },
+    {
+      "case": "DE-03",
+      "revision": "fig3a-24case-sc02note-v1",
+      "replicate": "v3-abc",
+      "group": "C",
+      "status": "completed",
+      "value": 0
+    },
+    {
+      "case": "DE-04",
+      "revision": "fig3a-24case-sc02note-v1",
+      "replicate": "v3-abc",
+      "group": "C",
+      "status": "completed",
+      "value": 1
+    },
+    {
+      "case": "MO-01",
+      "revision": "fig3a-24case-sc02note-v1",
+      "replicate": "v3-abc",
+      "group": "F",
+      "status": "completed",
+      "value": 1
+    },
+    {
+      "case": "MO-02",
+      "revision": "fig3a-24case-sc02note-v1",
+      "replicate": "v3-abc",
+      "group": "F",
+      "status": "completed",
+      "value": 1
+    },
+    {
+      "case": "MO-03",
+      "revision": "fig3a-24case-sc02note-v1",
+      "replicate": "v3-abc",
+      "group": "F",
+      "status": "completed",
+      "value": 1
+    },
+    {
+      "case": "MO-04",
+      "revision": "fig3a-24case-sc02note-v1",
+      "replicate": "v3-abc",
+      "group": "F",
+      "status": "completed",
+      "value": 0
+    },
+    {
+      "case": "RV-01",
+      "revision": "fig3a-24case-sc02note-v1",
+      "replicate": "v3-abc",
+      "group": "A",
+      "status": "completed",
+      "value": 1
+    },
+    {
+      "case": "RV-02",
+      "revision": "fig3a-24case-sc02note-v1",
+      "replicate": "v3-abc",
+      "group": "A",
+      "status": "completed",
+      "value": 0
+    },
+    {
+      "case": "RV-03",
+      "revision": "fig3a-24case-sc02note-v1",
+      "replicate": "v3-abc",
+      "group": "A",
+      "status": "completed",
+      "value": 1
+    },
+    {
+      "case": "RV-04",
+      "revision": "fig3a-24case-sc02note-v1",
+      "replicate": "v3-abc",
+      "group": "A",
+      "status": "completed",
+      "value": 0
+    },
+    {
+      "case": "SC-01",
+      "revision": "fig3a-24case-sc02note-v1",
+      "replicate": "v3-abc",
+      "group": "B",
+      "status": "completed",
+      "value": 0
+    },
+    {
+      "case": "SC-02",
+      "revision": "fig3a-24case-sc02note-v1",
+      "replicate": "v3-abc",
+      "group": "B",
+      "status": "completed",
+      "value": 1
+    },
+    {
+      "case": "SC-03",
+      "revision": "fig3a-24case-sc02note-v1",
+      "replicate": "v3-abc",
+      "group": "B",
+      "status": "completed",
+      "value": 0
+    },
+    {
+      "case": "SC-04",
+      "revision": "fig3a-24case-sc02note-v1",
+      "replicate": "v3-abc",
+      "group": "B",
+      "status": "completed",
+      "value": 0
+    },
+    {
+      "case": "SV-01",
+      "revision": "fig3a-24case-sc02note-v1",
+      "replicate": "v3-abc",
+      "group": "D",
+      "status": "completed",
+      "value": 1
+    },
+    {
+      "case": "SV-02",
+      "revision": "fig3a-24case-sc02note-v1",
+      "replicate": "v3-abc",
+      "group": "D",
+      "status": "completed",
+      "value": 1
+    },
+    {
+      "case": "SV-03",
+      "revision": "fig3a-24case-sc02note-v1",
+      "replicate": "v3-abc",
+      "group": "D",
+      "status": "completed",
+      "value": 0
+    },
+    {
+      "case": "SV-04",
+      "revision": "fig3a-24case-sc02note-v1",
+      "replicate": "v3-abc",
+      "group": "D",
+      "status": "completed",
+      "value": 0
+    },
+    {
+      "case": "VA-01",
+      "revision": "fig3a-24case-sc02note-v1",
+      "replicate": "v3-abc",
+      "group": "E",
+      "status": "completed",
+      "value": 1
+    },
+    {
+      "case": "VA-02",
+      "revision": "fig3a-24case-sc02note-v1",
+      "replicate": "v3-abc",
+      "group": "E",
+      "status": "completed",
+      "value": 0
+    },
+    {
+      "case": "VA-03",
+      "revision": "fig3a-24case-sc02note-v1",
+      "replicate": "v3-abc",
+      "group": "E",
+      "status": "completed",
+      "value": 1
+    },
+    {
+      "case": "VA-04",
+      "revision": "fig3a-24case-sc02note-v1",
+      "replicate": "v3-abc",
+      "group": "E",
+      "status": "completed",
+      "value": 0
+    },
+    {
+      "case": "DE-01",
+      "revision": "fig3a-24case-sc02note-v1",
+      "replicate": "v3-def",
+      "group": "C",
+      "status": "completed",
+      "value": 1
+    },
+    {
+      "case": "DE-02",
+      "revision": "fig3a-24case-sc02note-v1",
+      "replicate": "v3-def",
+      "group": "C",
+      "status": "completed",
+      "value": 1
+    },
+    {
+      "case": "DE-03",
+      "revision": "fig3a-24case-sc02note-v1",
+      "replicate": "v3-def",
+      "group": "C",
+      "status": "completed",
+      "value": 0
+    },
+    {
+      "case": "DE-04",
+      "revision": "fig3a-24case-sc02note-v1",
+      "replicate": "v3-def",
+      "group": "C",
+      "status": "completed",
+      "value": 0
+    },
+    {
+      "case": "MO-01",
+      "revision": "fig3a-24case-sc02note-v1",
+      "replicate": "v3-def",
+      "group": "F",
+      "status": "completed",
+      "value": 1
+    },
+    {
+      "case": "MO-02",
+      "revision": "fig3a-24case-sc02note-v1",
+      "replicate": "v3-def",
+      "group": "F",
+      "status": "completed",
+      "value": 1
+    },
+    {
+      "case": "MO-03",
+      "revision": "fig3a-24case-sc02note-v1",
+      "replicate": "v3-def",
+      "group": "F",
+      "status": "completed",
+      "value": 1
+    },
+    {
+      "case": "MO-04",
+      "revision": "fig3a-24case-sc02note-v1",
+      "replicate": "v3-def",
+      "group": "F",
+      "status": "completed",
+      "value": 0
+    },
+    {
+      "case": "RV-01",
+      "revision": "fig3a-24case-sc02note-v1",
+      "replicate": "v3-def",
+      "group": "A",
+      "status": "completed",
+      "value": 0
+    },
+    {
+      "case": "RV-02",
+      "revision": "fig3a-24case-sc02note-v1",
+      "replicate": "v3-def",
+      "group": "A",
+      "status": "completed",
+      "value": 0
+    },
+    {
+      "case": "RV-03",
+      "revision": "fig3a-24case-sc02note-v1",
+      "replicate": "v3-def",
+      "group": "A",
+      "status": "completed",
+      "value": 1
+    },
+    {
+      "case": "RV-04",
+      "revision": "fig3a-24case-sc02note-v1",
+      "replicate": "v3-def",
+      "group": "A",
+      "status": "completed",
+      "value": 0
+    },
+    {
+      "case": "SC-01",
+      "revision": "fig3a-24case-sc02note-v1",
+      "replicate": "v3-def",
+      "group": "B",
+      "status": "completed",
+      "value": 0
+    },
+    {
+      "case": "SC-02",
+      "revision": "fig3a-24case-sc02note-v1",
+      "replicate": "v3-def",
+      "group": "B",
+      "status": "completed",
+      "value": 1
+    },
+    {
+      "case": "SC-03",
+      "revision": "fig3a-24case-sc02note-v1",
+      "replicate": "v3-def",
+      "group": "B",
+      "status": "completed",
+      "value": 0
+    },
+    {
+      "case": "SC-04",
+      "revision": "fig3a-24case-sc02note-v1",
+      "replicate": "v3-def",
+      "group": "B",
+      "status": "completed",
+      "value": 0
+    },
+    {
+      "case": "SV-01",
+      "revision": "fig3a-24case-sc02note-v1",
+      "replicate": "v3-def",
+      "group": "D",
+      "status": "completed",
+      "value": 1
+    },
+    {
+      "case": "SV-02",
+      "revision": "fig3a-24case-sc02note-v1",
+      "replicate": "v3-def",
+      "group": "D",
+      "status": "completed",
+      "value": 1
+    },
+    {
+      "case": "SV-03",
+      "revision": "fig3a-24case-sc02note-v1",
+      "replicate": "v3-def",
+      "group": "D",
+      "status": "completed",
+      "value": 0
+    },
+    {
+      "case": "SV-04",
+      "revision": "fig3a-24case-sc02note-v1",
+      "replicate": "v3-def",
+      "group": "D",
+      "status": "completed",
+      "value": 0
+    },
+    {
+      "case": "VA-01",
+      "revision": "fig3a-24case-sc02note-v1",
+      "replicate": "v3-def",
+      "group": "E",
+      "status": "completed",
+      "value": 1
+    },
+    {
+      "case": "VA-02",
+      "revision": "fig3a-24case-sc02note-v1",
+      "replicate": "v3-def",
+      "group": "E",
+      "status": "completed",
+      "value": 0
+    },
+    {
+      "case": "VA-03",
+      "revision": "fig3a-24case-sc02note-v1",
+      "replicate": "v3-def",
+      "group": "E",
+      "status": "completed",
+      "value": 0
+    },
+    {
+      "case": "VA-04",
+      "revision": "fig3a-24case-sc02note-v1",
+      "replicate": "v3-def",
+      "group": "E",
+      "status": "completed",
+      "value": 0
+    },
+    {
+      "case": "DE-01",
+      "revision": "fig3a-24case-sc02note-v1",
+      "replicate": "v4-abc",
+      "group": "C",
+      "status": "completed",
+      "value": 1
+    },
+    {
+      "case": "DE-02",
+      "revision": "fig3a-24case-sc02note-v1",
+      "replicate": "v4-abc",
+      "group": "C",
+      "status": "completed",
+      "value": 1
+    },
+    {
+      "case": "DE-03",
+      "revision": "fig3a-24case-sc02note-v1",
+      "replicate": "v4-abc",
+      "group": "C",
+      "status": "completed",
+      "value": 1
+    },
+    {
+      "case": "DE-04",
+      "revision": "fig3a-24case-sc02note-v1",
+      "replicate": "v4-abc",
+      "group": "C",
+      "status": "completed",
+      "value": 1
+    },
+    {
+      "case": "MO-01",
+      "revision": "fig3a-24case-sc02note-v1",
+      "replicate": "v4-abc",
+      "group": "F",
+      "status": "completed",
+      "value": 1
+    },
+    {
+      "case": "MO-02",
+      "revision": "fig3a-24case-sc02note-v1",
+      "replicate": "v4-abc",
+      "group": "F",
+      "status": "completed",
+      "value": 1
+    },
+    {
+      "case": "MO-03",
+      "revision": "fig3a-24case-sc02note-v1",
+      "replicate": "v4-abc",
+      "group": "F",
+      "status": "completed",
+      "value": 1
+    },
+    {
+      "case": "MO-04",
+      "revision": "fig3a-24case-sc02note-v1",
+      "replicate": "v4-abc",
+      "group": "F",
+      "status": "completed",
+      "value": 1
+    },
+    {
+      "case": "RV-01",
+      "revision": "fig3a-24case-sc02note-v1",
+      "replicate": "v4-abc",
+      "group": "A",
+      "status": "completed",
+      "value": 0
+    },
+    {
+      "case": "RV-02",
+      "revision": "fig3a-24case-sc02note-v1",
+      "replicate": "v4-abc",
+      "group": "A",
+      "status": "completed",
+      "value": 0
+    },
+    {
+      "case": "RV-03",
+      "revision": "fig3a-24case-sc02note-v1",
+      "replicate": "v4-abc",
+      "group": "A",
+      "status": "completed",
+      "value": 1
+    },
+    {
+      "case": "RV-04",
+      "revision": "fig3a-24case-sc02note-v1",
+      "replicate": "v4-abc",
+      "group": "A",
+      "status": "completed",
+      "value": 0
+    },
+    {
+      "case": "SC-01",
+      "revision": "fig3a-24case-sc02note-v1",
+      "replicate": "v4-abc",
+      "group": "B",
+      "status": "completed",
+      "value": 1
+    },
+    {
+      "case": "SC-02",
+      "revision": "fig3a-24case-sc02note-v1",
+      "replicate": "v4-abc",
+      "group": "B",
+      "status": "completed",
+      "value": 1
+    },
+    {
+      "case": "SC-03",
+      "revision": "fig3a-24case-sc02note-v1",
+      "replicate": "v4-abc",
+      "group": "B",
+      "status": "completed",
+      "value": 0
+    },
+    {
+      "case": "SC-04",
+      "revision": "fig3a-24case-sc02note-v1",
+      "replicate": "v4-abc",
+      "group": "B",
+      "status": "completed",
+      "value": 0
+    },
+    {
+      "case": "SV-01",
+      "revision": "fig3a-24case-sc02note-v1",
+      "replicate": "v4-abc",
+      "group": "D",
+      "status": "completed",
+      "value": 1
+    },
+    {
+      "case": "SV-02",
+      "revision": "fig3a-24case-sc02note-v1",
+      "replicate": "v4-abc",
+      "group": "D",
+      "status": "completed",
+      "value": 1
+    },
+    {
+      "case": "SV-03",
+      "revision": "fig3a-24case-sc02note-v1",
+      "replicate": "v4-abc",
+      "group": "D",
+      "status": "completed",
+      "value": 0
+    },
+    {
+      "case": "SV-04",
+      "revision": "fig3a-24case-sc02note-v1",
+      "replicate": "v4-abc",
+      "group": "D",
+      "status": "completed",
+      "value": 0
+    },
+    {
+      "case": "VA-01",
+      "revision": "fig3a-24case-sc02note-v1",
+      "replicate": "v4-abc",
+      "group": "E",
+      "status": "completed",
+      "value": 1
+    },
+    {
+      "case": "VA-02",
+      "revision": "fig3a-24case-sc02note-v1",
+      "replicate": "v4-abc",
+      "group": "E",
+      "status": "completed",
+      "value": 0
+    },
+    {
+      "case": "VA-03",
+      "revision": "fig3a-24case-sc02note-v1",
+      "replicate": "v4-abc",
+      "group": "E",
+      "status": "completed",
+      "value": 0
+    },
+    {
+      "case": "VA-04",
+      "revision": "fig3a-24case-sc02note-v1",
+      "replicate": "v4-abc",
+      "group": "E",
+      "status": "completed",
+      "value": 0
+    },
+    {
+      "case": "DE-01",
+      "revision": "fig3a-24case-sc02note-v1",
+      "replicate": "v4-def",
+      "group": "C",
+      "status": "completed",
+      "value": 1
+    },
+    {
+      "case": "DE-02",
+      "revision": "fig3a-24case-sc02note-v1",
+      "replicate": "v4-def",
+      "group": "C",
+      "status": "completed",
+      "value": 1
+    },
+    {
+      "case": "DE-03",
+      "revision": "fig3a-24case-sc02note-v1",
+      "replicate": "v4-def",
+      "group": "C",
+      "status": "completed",
+      "value": 0
+    },
+    {
+      "case": "DE-04",
+      "revision": "fig3a-24case-sc02note-v1",
+      "replicate": "v4-def",
+      "group": "C",
+      "status": "completed",
+      "value": 1
+    },
+    {
+      "case": "MO-01",
+      "revision": "fig3a-24case-sc02note-v1",
+      "replicate": "v4-def",
+      "group": "F",
+      "status": "completed",
+      "value": 1
+    },
+    {
+      "case": "MO-02",
+      "revision": "fig3a-24case-sc02note-v1",
+      "replicate": "v4-def",
+      "group": "F",
+      "status": "completed",
+      "value": 1
+    },
+    {
+      "case": "MO-03",
+      "revision": "fig3a-24case-sc02note-v1",
+      "replicate": "v4-def",
+      "group": "F",
+      "status": "completed",
+      "value": 0
+    },
+    {
+      "case": "MO-04",
+      "revision": "fig3a-24case-sc02note-v1",
+      "replicate": "v4-def",
+      "group": "F",
+      "status": "completed",
+      "value": 0
+    },
+    {
+      "case": "RV-01",
+      "revision": "fig3a-24case-sc02note-v1",
+      "replicate": "v4-def",
+      "group": "A",
+      "status": "completed",
+      "value": 0
+    },
+    {
+      "case": "RV-02",
+      "revision": "fig3a-24case-sc02note-v1",
+      "replicate": "v4-def",
+      "group": "A",
+      "status": "completed",
+      "value": 0
+    },
+    {
+      "case": "RV-03",
+      "revision": "fig3a-24case-sc02note-v1",
+      "replicate": "v4-def",
+      "group": "A",
+      "status": "completed",
+      "value": 1
+    },
+    {
+      "case": "RV-04",
+      "revision": "fig3a-24case-sc02note-v1",
+      "replicate": "v4-def",
+      "group": "A",
+      "status": "completed",
+      "value": 0
+    },
+    {
+      "case": "SC-01",
+      "revision": "fig3a-24case-sc02note-v1",
+      "replicate": "v4-def",
+      "group": "B",
+      "status": "completed",
+      "value": 1
+    },
+    {
+      "case": "SC-02",
+      "revision": "fig3a-24case-sc02note-v1",
+      "replicate": "v4-def",
+      "group": "B",
+      "status": "completed",
+      "value": 1
+    },
+    {
+      "case": "SC-03",
+      "revision": "fig3a-24case-sc02note-v1",
+      "replicate": "v4-def",
+      "group": "B",
+      "status": "completed",
+      "value": 0
+    },
+    {
+      "case": "SC-04",
+      "revision": "fig3a-24case-sc02note-v1",
+      "replicate": "v4-def",
+      "group": "B",
+      "status": "completed",
+      "value": 0
+    },
+    {
+      "case": "SV-01",
+      "revision": "fig3a-24case-sc02note-v1",
+      "replicate": "v4-def",
+      "group": "D",
+      "status": "completed",
+      "value": 1
+    },
+    {
+      "case": "SV-02",
+      "revision": "fig3a-24case-sc02note-v1",
+      "replicate": "v4-def",
+      "group": "D",
+      "status": "completed",
+      "value": 1
+    },
+    {
+      "case": "SV-03",
+      "revision": "fig3a-24case-sc02note-v1",
+      "replicate": "v4-def",
+      "group": "D",
+      "status": "completed",
+      "value": 0
+    },
+    {
+      "case": "SV-04",
+      "revision": "fig3a-24case-sc02note-v1",
+      "replicate": "v4-def",
+      "group": "D",
+      "status": "completed",
+      "value": 0
+    },
+    {
+      "case": "VA-01",
+      "revision": "fig3a-24case-sc02note-v1",
+      "replicate": "v4-def",
+      "group": "E",
+      "status": "completed",
+      "value": 1
+    },
+    {
+      "case": "VA-02",
+      "revision": "fig3a-24case-sc02note-v1",
+      "replicate": "v4-def",
+      "group": "E",
+      "status": "completed",
+      "value": 0
+    },
+    {
+      "case": "VA-03",
+      "revision": "fig3a-24case-sc02note-v1",
+      "replicate": "v4-def",
+      "group": "E",
+      "status": "completed",
+      "value": 0
+    },
+    {
+      "case": "VA-04",
+      "revision": "fig3a-24case-sc02note-v1",
+      "replicate": "v4-def",
+      "group": "E",
+      "status": "completed",
+      "value": 0
+    }
+  ]
+}
