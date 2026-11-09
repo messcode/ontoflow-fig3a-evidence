@@ -1,0 +1,37 @@
+{
+  "V3V4-20261107-v11-I-biomni-staged-only": {
+    "counts": {
+      "decision_correct": 61,
+      "verifier_passed": 37
+    },
+    "manifest_sha256": "deb1b15cd1a5a6edb549ed59d479fbb23890f2a94fd545ab28d9cf7b505d8545"
+  },
+  "V3V4-20261107-v11-I-cellvoyager-v1": {
+    "counts": {
+      "decision_correct": 62,
+      "verifier_passed": 47
+    },
+    "manifest_sha256": "07912a6d99fdbc5e9cf6c341d12d1710b55ba2b69f877fcd362b4ff7ffcce0eb"
+  },
+  "V3V4-20261107-v11-I-claude-code-no-surface": {
+    "counts": {
+      "decision_correct": 87,
+      "verifier_passed": 53
+    },
+    "manifest_sha256": "e8f539113bcb5aa4282e2ee678368d393ad972ef1e4bafd89e2110c71d0385fa"
+  },
+  "V3V4-20261107-v11-I-codex-no-surface": {
+    "counts": {
+      "decision_correct": 85,
+      "verifier_passed": 48
+    },
+    "manifest_sha256": "eb2d3166e9686842d12b86abeb74bf3051006008623834612703a06f654444e7"
+  },
+  "V3V4-20261107-v11-I-codex-with-surface": {
+    "counts": {
+      "decision_correct": 91,
+      "verifier_passed": 61
+    },
+    "manifest_sha256": "6b6420e287105ddeac8b8a57e6c4302c89b7a4ab696f93ab8586da80c34df548"
+  }
+}

@@ -1,5 +1,7 @@
 # Frozen Fig. 3A full-blind development measurement
 
+[Diagnostic scoreboard with per-slot scores and rubric checks](../../diagnostics/fig3a/board.md)
+
 RV-01 and VA-01, two evidence views, four arms, two planned replicates. Each arm has eight planned slots. Development release. The frozen verifier flagged an out-of-range local catalog request. The subsequent replay matched the underlying request to its typed local rejection; the original verdict is retained. The final eight previously undispatched slots continued after a host dispatch interruption. Full-strict counts below use all planned slots; the board group mean uses scored observations.
 
 | Arm | Phase | Planned | Attempts | Returned | Schema valid | Full strict | Model calls | Input incl. cache | Cached input | Output |

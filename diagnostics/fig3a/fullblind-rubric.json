@@ -1,0 +1,98 @@
+{
+  "FB-6b93b6cc7356-biomni-I": {
+    "counts": {
+      "decision": 4,
+      "evidence": 2,
+      "exact_set": 0,
+      "locations": 0,
+      "operation": 1,
+      "roles": 0,
+      "schema": 8
+    },
+    "manifest_sha256": "f95d78d888e8d144eb418bbee0b1f072d860638d7605c79ff08dcfe757886e7f"
+  },
+  "FB-6b93b6cc7356-biomni-R": {
+    "counts": {
+      "decision": 4,
+      "evidence": 2,
+      "exact_set": 5,
+      "locations": 1,
+      "operation": 2,
+      "roles": 8,
+      "schema": 8
+    },
+    "manifest_sha256": "6897eb0f43976b3fca393c0863b5ed8db85ddf1415993dd5e4a2d8b62d6072a0"
+  },
+  "FB-6b93b6cc7356-claude-I": {
+    "counts": {
+      "decision": 5,
+      "evidence": 8,
+      "exact_set": 1,
+      "locations": 1,
+      "operation": 4,
+      "roles": 2,
+      "schema": 8
+    },
+    "manifest_sha256": "77867748943dc84640be8304b987c8d71dcd0bf1dc79c6a382dc7815f829a9ac"
+  },
+  "FB-6b93b6cc7356-claude-R": {
+    "counts": {
+      "decision": 6,
+      "evidence": 8,
+      "exact_set": 5,
+      "locations": 4,
+      "operation": 4,
+      "roles": 8,
+      "schema": 8
+    },
+    "manifest_sha256": "eb76756107ba4e7966593b529e68d11fdb2f9ad0fc9a91d0912b5316e76da0ae"
+  },
+  "FB-6b93b6cc7356-codex-query-I": {
+    "counts": {
+      "decision": 6,
+      "evidence": 8,
+      "exact_set": 3,
+      "locations": 4,
+      "operation": 5,
+      "roles": 4,
+      "schema": 8
+    },
+    "manifest_sha256": "2dc1690c1bcb2568ca70db5606a52253c9c6021efd7910270a791cc0afb23184"
+  },
+  "FB-6b93b6cc7356-codex-query-R": {
+    "counts": {
+      "decision": 8,
+      "evidence": 8,
+      "exact_set": 6,
+      "locations": 7,
+      "operation": 5,
+      "roles": 8,
+      "schema": 8
+    },
+    "manifest_sha256": "932f928dec6533b3c6213998983a7ce0c90b549f7c1255ecf8d1154a2e160688"
+  },
+  "FB-6b93b6cc7356-codex-static-I": {
+    "counts": {
+      "decision": 6,
+      "evidence": 8,
+      "exact_set": 3,
+      "locations": 3,
+      "operation": 8,
+      "roles": 5,
+      "schema": 8
+    },
+    "manifest_sha256": "288d570137c554ce319edd8a1ab2a65ae5cb6ac54fb065b9418424e6f5a6793a"
+  },
+  "FB-6b93b6cc7356-codex-static-R": {
+    "counts": {
+      "decision": 8,
+      "evidence": 8,
+      "exact_set": 6,
+      "locations": 5,
+      "operation": 8,
+      "roles": 8,
+      "schema": 8
+    },
+    "manifest_sha256": "30d76d87032be2908331ad842d7ad5602d213d1979082077736b38312bbb8f69"
+  }
+}
