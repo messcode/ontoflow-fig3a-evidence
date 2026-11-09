@@ -1,13 +1,15 @@
 {
   "track": "fig3a",
+  "protocol": "role-known",
+  "phase": "independent",
   "roster": "fig3a-24case-sc02note-v1",
   "run": "fig3a-v3v4-20261107",
-  "score": "V3V4-RK-20261107-claude-code-no-surface",
+  "score": "V3V4-20261107-v11-I-claude-code-no-surface",
   "system": "claude-code:2.1.107",
   "harness": "ontoflow-fig3a-runner@report-schema:ontoflow.fig3a_multi_arm_report.v0",
   "arm": "claude_code_no_surface",
   "arm_settings": "surface=off",
-  "shared_settings": "fig3a-sc02note-v1|budget=1800s,5000000tok|seeds=20262101,20262102,20262201,20262202|prompt=instruction:sha256:aa9d4b88b9d72d4fcdc7ef410818f216b266e59df6cdd70b27cf6fc2ae9df428",
+  "shared_settings": "fig3a-sc02note-v1|budget=1800s,5000000tok|seeds=20262101,20262102,20262201,20262202|prompt=instruction:sha256:aa9d4b88b9d72d4fcdc7ef410818f216b266e59df6cdd70b27cf6fc2ae9df428|feedback=none",
   "model": "deepseek-v4-flash",
   "scorer": "ontoflow.compliant-v1",
   "gold": "fig3a-24case-oracle@2026-11-05",
@@ -15,8 +17,6 @@
   "selection": "All 24 cases, four pre-scheduled draws, exploratory baseline",
   "eligibility_reason": "Exploratory role-known baseline; not a signed cohort; pre-#119 publication contract",
   "formal_eligible": false,
-  "protocol": "role-known",
-  "phase": "independent",
   "rows": [
     {
       "case": "DE-01",

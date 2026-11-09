@@ -1,22 +1,22 @@
 {
   "track": "fig3a",
+  "protocol": "role-known",
+  "phase": "independent",
   "roster": "fig3a-24case-sc02note-v1",
   "run": "fig3a-v3v4-20261107",
-  "score": "V3V4-RK-20261107-codex-with-surface",
-  "system": "codex@sha256:6c0f874084579c988cb97f00da856634474846112770d149b890f6ed1556b557",
+  "score": "V3V4-20261107-v11-I-cellvoyager-v1",
+  "system": "git:1f9918a21a908b62474fd580fc82a8f10d2387ae",
   "harness": "ontoflow-fig3a-runner@report-schema:ontoflow.fig3a_multi_arm_report.v0",
-  "arm": "codex_with_surface",
-  "arm_settings": "surface=on",
-  "shared_settings": "fig3a-sc02note-v1|budget=1800s,5000000tok|seeds=20262101,20262102,20262201,20262202|prompt=instruction:sha256:aa9d4b88b9d72d4fcdc7ef410818f216b266e59df6cdd70b27cf6fc2ae9df428",
-  "model": "deepseek-v4-flash",
+  "arm": "cellvoyager_v1",
+  "arm_settings": "native_claude_mode",
+  "shared_settings": "fig3a-sc02note-v1|budget=1800s,5000000tok|seeds=20262101,20262102,20262201,20262202|prompt=instruction:sha256:aa9d4b88b9d72d4fcdc7ef410818f216b266e59df6cdd70b27cf6fc2ae9df428|feedback=none",
+  "model": "deepseek/deepseek-chat",
   "scorer": "ontoflow.compliant-v1",
   "gold": "fig3a-24case-oracle@2026-11-05",
   "metric": "compliant-rate-v1",
   "selection": "All 24 cases, four pre-scheduled draws, exploratory baseline",
   "eligibility_reason": "Exploratory role-known baseline; not a signed cohort; pre-#119 publication contract",
   "formal_eligible": false,
-  "protocol": "role-known",
-  "phase": "independent",
   "rows": [
     {
       "case": "DE-01",
@@ -40,7 +40,7 @@
       "replicate": "v3-abc",
       "group": "C",
       "status": "completed",
-      "value": 1
+      "value": 0
     },
     {
       "case": "DE-04",
@@ -88,7 +88,7 @@
       "replicate": "v3-abc",
       "group": "A",
       "status": "completed",
-      "value": 1
+      "value": 0
     },
     {
       "case": "RV-02",
@@ -96,7 +96,7 @@
       "replicate": "v3-abc",
       "group": "A",
       "status": "completed",
-      "value": 0
+      "value": 1
     },
     {
       "case": "RV-03",
@@ -144,7 +144,7 @@
       "replicate": "v3-abc",
       "group": "B",
       "status": "completed",
-      "value": 0
+      "value": 1
     },
     {
       "case": "SV-01",
@@ -208,7 +208,7 @@
       "replicate": "v3-abc",
       "group": "E",
       "status": "completed",
-      "value": 1
+      "value": 0
     },
     {
       "case": "DE-01",
@@ -264,7 +264,7 @@
       "replicate": "v3-def",
       "group": "F",
       "status": "completed",
-      "value": 1
+      "value": 0
     },
     {
       "case": "MO-04",
@@ -280,7 +280,7 @@
       "replicate": "v3-def",
       "group": "A",
       "status": "completed",
-      "value": 1
+      "value": 0
     },
     {
       "case": "RV-02",
@@ -288,7 +288,7 @@
       "replicate": "v3-def",
       "group": "A",
       "status": "completed",
-      "value": 0
+      "value": 1
     },
     {
       "case": "RV-03",
@@ -296,7 +296,7 @@
       "replicate": "v3-def",
       "group": "A",
       "status": "completed",
-      "value": 1
+      "value": 0
     },
     {
       "case": "RV-04",
@@ -304,7 +304,7 @@
       "replicate": "v3-def",
       "group": "A",
       "status": "completed",
-      "value": 0
+      "value": 1
     },
     {
       "case": "SC-01",
@@ -312,7 +312,7 @@
       "replicate": "v3-def",
       "group": "B",
       "status": "completed",
-      "value": 0
+      "value": 1
     },
     {
       "case": "SC-02",
@@ -336,7 +336,7 @@
       "replicate": "v3-def",
       "group": "B",
       "status": "completed",
-      "value": 1
+      "value": 0
     },
     {
       "case": "SV-01",
@@ -344,7 +344,7 @@
       "replicate": "v3-def",
       "group": "D",
       "status": "completed",
-      "value": 1
+      "value": 0
     },
     {
       "case": "SV-02",
@@ -352,7 +352,7 @@
       "replicate": "v3-def",
       "group": "D",
       "status": "completed",
-      "value": 1
+      "value": 0
     },
     {
       "case": "SV-03",
@@ -360,7 +360,7 @@
       "replicate": "v3-def",
       "group": "D",
       "status": "completed",
-      "value": 1
+      "value": 0
     },
     {
       "case": "SV-04",
@@ -368,7 +368,7 @@
       "replicate": "v3-def",
       "group": "D",
       "status": "completed",
-      "value": 1
+      "value": 0
     },
     {
       "case": "VA-01",
@@ -416,7 +416,7 @@
       "replicate": "v4-abc",
       "group": "C",
       "status": "completed",
-      "value": 0
+      "value": 1
     },
     {
       "case": "DE-03",
@@ -432,7 +432,7 @@
       "replicate": "v4-abc",
       "group": "C",
       "status": "completed",
-      "value": 1
+      "value": 0
     },
     {
       "case": "MO-01",
@@ -456,7 +456,7 @@
       "replicate": "v4-abc",
       "group": "F",
       "status": "completed",
-      "value": 1
+      "value": 0
     },
     {
       "case": "MO-04",
@@ -472,7 +472,7 @@
       "replicate": "v4-abc",
       "group": "A",
       "status": "completed",
-      "value": 1
+      "value": 0
     },
     {
       "case": "RV-02",
@@ -480,7 +480,7 @@
       "replicate": "v4-abc",
       "group": "A",
       "status": "completed",
-      "value": 1
+      "value": 0
     },
     {
       "case": "RV-03",
@@ -488,7 +488,7 @@
       "replicate": "v4-abc",
       "group": "A",
       "status": "completed",
-      "value": 1
+      "value": 0
     },
     {
       "case": "RV-04",
@@ -504,7 +504,7 @@
       "replicate": "v4-abc",
       "group": "B",
       "status": "completed",
-      "value": 1
+      "value": 0
     },
     {
       "case": "SC-02",
@@ -528,7 +528,7 @@
       "replicate": "v4-abc",
       "group": "B",
       "status": "completed",
-      "value": 1
+      "value": 0
     },
     {
       "case": "SV-01",
@@ -560,7 +560,7 @@
       "replicate": "v4-abc",
       "group": "D",
       "status": "completed",
-      "value": 1
+      "value": 0
     },
     {
       "case": "VA-01",
@@ -568,7 +568,7 @@
       "replicate": "v4-abc",
       "group": "E",
       "status": "completed",
-      "value": 1
+      "value": 0
     },
     {
       "case": "VA-02",
@@ -576,7 +576,7 @@
       "replicate": "v4-abc",
       "group": "E",
       "status": "completed",
-      "value": 0
+      "value": 1
     },
     {
       "case": "VA-03",
@@ -616,7 +616,7 @@
       "replicate": "v4-def",
       "group": "C",
       "status": "completed",
-      "value": 1
+      "value": 0
     },
     {
       "case": "DE-04",
@@ -648,7 +648,7 @@
       "replicate": "v4-def",
       "group": "F",
       "status": "completed",
-      "value": 0
+      "value": 1
     },
     {
       "case": "MO-04",
@@ -680,7 +680,7 @@
       "replicate": "v4-def",
       "group": "A",
       "status": "completed",
-      "value": 1
+      "value": 0
     },
     {
       "case": "RV-04",
@@ -728,7 +728,7 @@
       "replicate": "v4-def",
       "group": "D",
       "status": "completed",
-      "value": 1
+      "value": 0
     },
     {
       "case": "SV-02",
@@ -744,7 +744,7 @@
       "replicate": "v4-def",
       "group": "D",
       "status": "completed",
-      "value": 1
+      "value": 0
     },
     {
       "case": "SV-04",
@@ -752,7 +752,7 @@
       "replicate": "v4-def",
       "group": "D",
       "status": "completed",
-      "value": 1
+      "value": 0
     },
     {
       "case": "VA-01",
