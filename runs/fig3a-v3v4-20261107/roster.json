@@ -1,0 +1,582 @@
+{
+  "track": "fig3a",
+  "revision": "fig3a-24case-sc02note-v1",
+  "slots": [
+    {
+      "case": "DE-01",
+      "revision": "fig3a-24case-sc02note-v1",
+      "replicate": "v3-abc",
+      "group": "C"
+    },
+    {
+      "case": "DE-01",
+      "revision": "fig3a-24case-sc02note-v1",
+      "replicate": "v3-def",
+      "group": "C"
+    },
+    {
+      "case": "DE-01",
+      "revision": "fig3a-24case-sc02note-v1",
+      "replicate": "v4-abc",
+      "group": "C"
+    },
+    {
+      "case": "DE-01",
+      "revision": "fig3a-24case-sc02note-v1",
+      "replicate": "v4-def",
+      "group": "C"
+    },
+    {
+      "case": "DE-02",
+      "revision": "fig3a-24case-sc02note-v1",
+      "replicate": "v3-abc",
+      "group": "C"
+    },
+    {
+      "case": "DE-02",
+      "revision": "fig3a-24case-sc02note-v1",
+      "replicate": "v3-def",
+      "group": "C"
+    },
+    {
+      "case": "DE-02",
+      "revision": "fig3a-24case-sc02note-v1",
+      "replicate": "v4-abc",
+      "group": "C"
+    },
+    {
+      "case": "DE-02",
+      "revision": "fig3a-24case-sc02note-v1",
+      "replicate": "v4-def",
+      "group": "C"
+    },
+    {
+      "case": "DE-03",
+      "revision": "fig3a-24case-sc02note-v1",
+      "replicate": "v3-abc",
+      "group": "C"
+    },
+    {
+      "case": "DE-03",
+      "revision": "fig3a-24case-sc02note-v1",
+      "replicate": "v3-def",
+      "group": "C"
+    },
+    {
+      "case": "DE-03",
+      "revision": "fig3a-24case-sc02note-v1",
+      "replicate": "v4-abc",
+      "group": "C"
+    },
+    {
+      "case": "DE-03",
+      "revision": "fig3a-24case-sc02note-v1",
+      "replicate": "v4-def",
+      "group": "C"
+    },
+    {
+      "case": "DE-04",
+      "revision": "fig3a-24case-sc02note-v1",
+      "replicate": "v3-abc",
+      "group": "C"
+    },
+    {
+      "case": "DE-04",
+      "revision": "fig3a-24case-sc02note-v1",
+      "replicate": "v3-def",
+      "group": "C"
+    },
+    {
+      "case": "DE-04",
+      "revision": "fig3a-24case-sc02note-v1",
+      "replicate": "v4-abc",
+      "group": "C"
+    },
+    {
+      "case": "DE-04",
+      "revision": "fig3a-24case-sc02note-v1",
+      "replicate": "v4-def",
+      "group": "C"
+    },
+    {
+      "case": "MO-01",
+      "revision": "fig3a-24case-sc02note-v1",
+      "replicate": "v3-abc",
+      "group": "F"
+    },
+    {
+      "case": "MO-01",
+      "revision": "fig3a-24case-sc02note-v1",
+      "replicate": "v3-def",
+      "group": "F"
+    },
+    {
+      "case": "MO-01",
+      "revision": "fig3a-24case-sc02note-v1",
+      "replicate": "v4-abc",
+      "group": "F"
+    },
+    {
+      "case": "MO-01",
+      "revision": "fig3a-24case-sc02note-v1",
+      "replicate": "v4-def",
+      "group": "F"
+    },
+    {
+      "case": "MO-02",
+      "revision": "fig3a-24case-sc02note-v1",
+      "replicate": "v3-abc",
+      "group": "F"
+    },
+    {
+      "case": "MO-02",
+      "revision": "fig3a-24case-sc02note-v1",
+      "replicate": "v3-def",
+      "group": "F"
+    },
+    {
+      "case": "MO-02",
+      "revision": "fig3a-24case-sc02note-v1",
+      "replicate": "v4-abc",
+      "group": "F"
+    },
+    {
+      "case": "MO-02",
+      "revision": "fig3a-24case-sc02note-v1",
+      "replicate": "v4-def",
+      "group": "F"
+    },
+    {
+      "case": "MO-03",
+      "revision": "fig3a-24case-sc02note-v1",
+      "replicate": "v3-abc",
+      "group": "F"
+    },
+    {
+      "case": "MO-03",
+      "revision": "fig3a-24case-sc02note-v1",
+      "replicate": "v3-def",
+      "group": "F"
+    },
+    {
+      "case": "MO-03",
+      "revision": "fig3a-24case-sc02note-v1",
+      "replicate": "v4-abc",
+      "group": "F"
+    },
+    {
+      "case": "MO-03",
+      "revision": "fig3a-24case-sc02note-v1",
+      "replicate": "v4-def",
+      "group": "F"
+    },
+    {
+      "case": "MO-04",
+      "revision": "fig3a-24case-sc02note-v1",
+      "replicate": "v3-abc",
+      "group": "F"
+    },
+    {
+      "case": "MO-04",
+      "revision": "fig3a-24case-sc02note-v1",
+      "replicate": "v3-def",
+      "group": "F"
+    },
+    {
+      "case": "MO-04",
+      "revision": "fig3a-24case-sc02note-v1",
+      "replicate": "v4-abc",
+      "group": "F"
+    },
+    {
+      "case": "MO-04",
+      "revision": "fig3a-24case-sc02note-v1",
+      "replicate": "v4-def",
+      "group": "F"
+    },
+    {
+      "case": "RV-01",
+      "revision": "fig3a-24case-sc02note-v1",
+      "replicate": "v3-abc",
+      "group": "A"
+    },
+    {
+      "case": "RV-01",
+      "revision": "fig3a-24case-sc02note-v1",
+      "replicate": "v3-def",
+      "group": "A"
+    },
+    {
+      "case": "RV-01",
+      "revision": "fig3a-24case-sc02note-v1",
+      "replicate": "v4-abc",
+      "group": "A"
+    },
+    {
+      "case": "RV-01",
+      "revision": "fig3a-24case-sc02note-v1",
+      "replicate": "v4-def",
+      "group": "A"
+    },
+    {
+      "case": "RV-02",
+      "revision": "fig3a-24case-sc02note-v1",
+      "replicate": "v3-abc",
+      "group": "A"
+    },
+    {
+      "case": "RV-02",
+      "revision": "fig3a-24case-sc02note-v1",
+      "replicate": "v3-def",
+      "group": "A"
+    },
+    {
+      "case": "RV-02",
+      "revision": "fig3a-24case-sc02note-v1",
+      "replicate": "v4-abc",
+      "group": "A"
+    },
+    {
+      "case": "RV-02",
+      "revision": "fig3a-24case-sc02note-v1",
+      "replicate": "v4-def",
+      "group": "A"
+    },
+    {
+      "case": "RV-03",
+      "revision": "fig3a-24case-sc02note-v1",
+      "replicate": "v3-abc",
+      "group": "A"
+    },
+    {
+      "case": "RV-03",
+      "revision": "fig3a-24case-sc02note-v1",
+      "replicate": "v3-def",
+      "group": "A"
+    },
+    {
+      "case": "RV-03",
+      "revision": "fig3a-24case-sc02note-v1",
+      "replicate": "v4-abc",
+      "group": "A"
+    },
+    {
+      "case": "RV-03",
+      "revision": "fig3a-24case-sc02note-v1",
+      "replicate": "v4-def",
+      "group": "A"
+    },
+    {
+      "case": "RV-04",
+      "revision": "fig3a-24case-sc02note-v1",
+      "replicate": "v3-abc",
+      "group": "A"
+    },
+    {
+      "case": "RV-04",
+      "revision": "fig3a-24case-sc02note-v1",
+      "replicate": "v3-def",
+      "group": "A"
+    },
+    {
+      "case": "RV-04",
+      "revision": "fig3a-24case-sc02note-v1",
+      "replicate": "v4-abc",
+      "group": "A"
+    },
+    {
+      "case": "RV-04",
+      "revision": "fig3a-24case-sc02note-v1",
+      "replicate": "v4-def",
+      "group": "A"
+    },
+    {
+      "case": "SC-01",
+      "revision": "fig3a-24case-sc02note-v1",
+      "replicate": "v3-abc",
+      "group": "B"
+    },
+    {
+      "case": "SC-01",
+      "revision": "fig3a-24case-sc02note-v1",
+      "replicate": "v3-def",
+      "group": "B"
+    },
+    {
+      "case": "SC-01",
+      "revision": "fig3a-24case-sc02note-v1",
+      "replicate": "v4-abc",
+      "group": "B"
+    },
+    {
+      "case": "SC-01",
+      "revision": "fig3a-24case-sc02note-v1",
+      "replicate": "v4-def",
+      "group": "B"
+    },
+    {
+      "case": "SC-02",
+      "revision": "fig3a-24case-sc02note-v1",
+      "replicate": "v3-abc",
+      "group": "B"
+    },
+    {
+      "case": "SC-02",
+      "revision": "fig3a-24case-sc02note-v1",
+      "replicate": "v3-def",
+      "group": "B"
+    },
+    {
+      "case": "SC-02",
+      "revision": "fig3a-24case-sc02note-v1",
+      "replicate": "v4-abc",
+      "group": "B"
+    },
+    {
+      "case": "SC-02",
+      "revision": "fig3a-24case-sc02note-v1",
+      "replicate": "v4-def",
+      "group": "B"
+    },
+    {
+      "case": "SC-03",
+      "revision": "fig3a-24case-sc02note-v1",
+      "replicate": "v3-abc",
+      "group": "B"
+    },
+    {
+      "case": "SC-03",
+      "revision": "fig3a-24case-sc02note-v1",
+      "replicate": "v3-def",
+      "group": "B"
+    },
+    {
+      "case": "SC-03",
+      "revision": "fig3a-24case-sc02note-v1",
+      "replicate": "v4-abc",
+      "group": "B"
+    },
+    {
+      "case": "SC-03",
+      "revision": "fig3a-24case-sc02note-v1",
+      "replicate": "v4-def",
+      "group": "B"
+    },
+    {
+      "case": "SC-04",
+      "revision": "fig3a-24case-sc02note-v1",
+      "replicate": "v3-abc",
+      "group": "B"
+    },
+    {
+      "case": "SC-04",
+      "revision": "fig3a-24case-sc02note-v1",
+      "replicate": "v3-def",
+      "group": "B"
+    },
+    {
+      "case": "SC-04",
+      "revision": "fig3a-24case-sc02note-v1",
+      "replicate": "v4-abc",
+      "group": "B"
+    },
+    {
+      "case": "SC-04",
+      "revision": "fig3a-24case-sc02note-v1",
+      "replicate": "v4-def",
+      "group": "B"
+    },
+    {
+      "case": "SV-01",
+      "revision": "fig3a-24case-sc02note-v1",
+      "replicate": "v3-abc",
+      "group": "D"
+    },
+    {
+      "case": "SV-01",
+      "revision": "fig3a-24case-sc02note-v1",
+      "replicate": "v3-def",
+      "group": "D"
+    },
+    {
+      "case": "SV-01",
+      "revision": "fig3a-24case-sc02note-v1",
+      "replicate": "v4-abc",
+      "group": "D"
+    },
+    {
+      "case": "SV-01",
+      "revision": "fig3a-24case-sc02note-v1",
+      "replicate": "v4-def",
+      "group": "D"
+    },
+    {
+      "case": "SV-02",
+      "revision": "fig3a-24case-sc02note-v1",
+      "replicate": "v3-abc",
+      "group": "D"
+    },
+    {
+      "case": "SV-02",
+      "revision": "fig3a-24case-sc02note-v1",
+      "replicate": "v3-def",
+      "group": "D"
+    },
+    {
+      "case": "SV-02",
+      "revision": "fig3a-24case-sc02note-v1",
+      "replicate": "v4-abc",
+      "group": "D"
+    },
+    {
+      "case": "SV-02",
+      "revision": "fig3a-24case-sc02note-v1",
+      "replicate": "v4-def",
+      "group": "D"
+    },
+    {
+      "case": "SV-03",
+      "revision": "fig3a-24case-sc02note-v1",
+      "replicate": "v3-abc",
+      "group": "D"
+    },
+    {
+      "case": "SV-03",
+      "revision": "fig3a-24case-sc02note-v1",
+      "replicate": "v3-def",
+      "group": "D"
+    },
+    {
+      "case": "SV-03",
+      "revision": "fig3a-24case-sc02note-v1",
+      "replicate": "v4-abc",
+      "group": "D"
+    },
+    {
+      "case": "SV-03",
+      "revision": "fig3a-24case-sc02note-v1",
+      "replicate": "v4-def",
+      "group": "D"
+    },
+    {
+      "case": "SV-04",
+      "revision": "fig3a-24case-sc02note-v1",
+      "replicate": "v3-abc",
+      "group": "D"
+    },
+    {
+      "case": "SV-04",
+      "revision": "fig3a-24case-sc02note-v1",
+      "replicate": "v3-def",
+      "group": "D"
+    },
+    {
+      "case": "SV-04",
+      "revision": "fig3a-24case-sc02note-v1",
+      "replicate": "v4-abc",
+      "group": "D"
+    },
+    {
+      "case": "SV-04",
+      "revision": "fig3a-24case-sc02note-v1",
+      "replicate": "v4-def",
+      "group": "D"
+    },
+    {
+      "case": "VA-01",
+      "revision": "fig3a-24case-sc02note-v1",
+      "replicate": "v3-abc",
+      "group": "E"
+    },
+    {
+      "case": "VA-01",
+      "revision": "fig3a-24case-sc02note-v1",
+      "replicate": "v3-def",
+      "group": "E"
+    },
+    {
+      "case": "VA-01",
+      "revision": "fig3a-24case-sc02note-v1",
+      "replicate": "v4-abc",
+      "group": "E"
+    },
+    {
+      "case": "VA-01",
+      "revision": "fig3a-24case-sc02note-v1",
+      "replicate": "v4-def",
+      "group": "E"
+    },
+    {
+      "case": "VA-02",
+      "revision": "fig3a-24case-sc02note-v1",
+      "replicate": "v3-abc",
+      "group": "E"
+    },
+    {
+      "case": "VA-02",
+      "revision": "fig3a-24case-sc02note-v1",
+      "replicate": "v3-def",
+      "group": "E"
+    },
+    {
+      "case": "VA-02",
+      "revision": "fig3a-24case-sc02note-v1",
+      "replicate": "v4-abc",
+      "group": "E"
+    },
+    {
+      "case": "VA-02",
+      "revision": "fig3a-24case-sc02note-v1",
+      "replicate": "v4-def",
+      "group": "E"
+    },
+    {
+      "case": "VA-03",
+      "revision": "fig3a-24case-sc02note-v1",
+      "replicate": "v3-abc",
+      "group": "E"
+    },
+    {
+      "case": "VA-03",
+      "revision": "fig3a-24case-sc02note-v1",
+      "replicate": "v3-def",
+      "group": "E"
+    },
+    {
+      "case": "VA-03",
+      "revision": "fig3a-24case-sc02note-v1",
+      "replicate": "v4-abc",
+      "group": "E"
+    },
+    {
+      "case": "VA-03",
+      "revision": "fig3a-24case-sc02note-v1",
+      "replicate": "v4-def",
+      "group": "E"
+    },
+    {
+      "case": "VA-04",
+      "revision": "fig3a-24case-sc02note-v1",
+      "replicate": "v3-abc",
+      "group": "E"
+    },
+    {
+      "case": "VA-04",
+      "revision": "fig3a-24case-sc02note-v1",
+      "replicate": "v3-def",
+      "group": "E"
+    },
+    {
+      "case": "VA-04",
+      "revision": "fig3a-24case-sc02note-v1",
+      "replicate": "v4-abc",
+      "group": "E"
+    },
+    {
+      "case": "VA-04",
+      "revision": "fig3a-24case-sc02note-v1",
+      "replicate": "v4-def",
+      "group": "E"
+    }
+  ]
+}
