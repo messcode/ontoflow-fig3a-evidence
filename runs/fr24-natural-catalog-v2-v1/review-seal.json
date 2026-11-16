@@ -1,0 +1,18 @@
+{
+  "external": {
+    "model": "mlx-community/Qwen3-30B-A3B-Instruct-2507-4bit@e9675aa3ca5f900ccef55267914466d55ab325fa",
+    "request_sha256": "c9b68b0b0224b261d43d3941169bae5e6f3bd3dd13600d5cb1fd1489de971792",
+    "reviewer": "Independent tool-free MLX inference, one masked answer per context",
+    "verdicts_sha256": "01dedef27f8410343f755ad3dc0470c5ad790d01d04c7f7ee2044c5fcc0cad8b"
+  },
+  "first_passes": [
+    "3865d9308245d7f03bd30f8303f85fd4168fdc0c5261c4cb7cf21ab6e5177a57",
+    "84b8aa445f5857dc463a069d246b811ee6e991258349d3d6eb517e6e5d6556f0"
+  ],
+  "key": "abae076687420106d4d1aecd0e0c89011b853708bcc852174a7d72767b4440d0",
+  "model": "deepseek-flash",
+  "packet": "0e8393abe3cc75fbf741b3999c57b7b3d2d61e825233341925e5f0ae32a4e559",
+  "request": "c9b68b0b0224b261d43d3941169bae5e6f3bd3dd13600d5cb1fd1489de971792",
+  "sha256": "786a1018a47b972ae6d697ec97db6da6ceae8ac1f0e445f257484bc79f0c2af7",
+  "version": "d81175d95a49b0aff083f95ff8a542819982f65993e4757b1baf4e983bfd0e81"
+}

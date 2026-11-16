@@ -1,0 +1,9 @@
+{
+  "catalog_sha256": "aee4f393f279dd87fdf8e39664a5ce32edb54378bda513a4f1b335ffcd3a4d2a",
+  "cost_source_seal_sha256": "bd71776721a77b4729582b392f7a3e8bba54fa5975cfbb50c1a93ac14ea61ad2",
+  "export_source_sha256": "4b7cd849581b44986a17882d83292f2b8fcfd4050163d299ce6caa24204eef26",
+  "measurement_freeze_sha256": "561f562db64653b958f0f348c35e2683587f9330cb49c27a8df168e052e1aea7",
+  "parent_score": "616c957643596b3f57be9004ba488ddc3e3beea7a3965490c4cf1686e5980fc9",
+  "scoring_freeze_sha256": "9caffe98ee7438a8e3cfa20de7f6e73692624c53987a089c45c9158112fcfd32",
+  "scoring_source_sha256": "09b6fb0202518d3aec20c2f7bdfe74b4b8eebe4f9c39ec128f65f21f0c180432"
+}

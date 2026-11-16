@@ -1,0 +1,487 @@
+{
+  "arbitration": {
+    "audits": 6,
+    "audits_maintained": 6,
+    "disagreements": 2,
+    "model": "mlx-community/Qwen3-30B-A3B-Instruct-2507-4bit@e9675aa3ca5f900ccef55267914466d55ab325fa"
+  },
+  "arms": {
+    "codex": {
+      "decision": 43,
+      "evidence": 42,
+      "families": {
+        "DE": {
+          "joint": 8,
+          "planned": 8
+        },
+        "MO": {
+          "joint": 6,
+          "planned": 8
+        },
+        "RV": {
+          "joint": 8,
+          "planned": 8
+        },
+        "SC": {
+          "joint": 6,
+          "planned": 8
+        },
+        "SV": {
+          "joint": 8,
+          "planned": 8
+        },
+        "VA": {
+          "joint": 6,
+          "planned": 8
+        }
+      },
+      "joint": 42,
+      "medians": {
+        "calls": 9.5,
+        "elapsed_seconds": 90.09,
+        "input_tokens": 188228.0
+      },
+      "missing_usage_calls": 1,
+      "planned": 48,
+      "submitted": 46,
+      "totals": {
+        "cached_input_tokens": 11144704,
+        "calls": 510,
+        "input_tokens": 11734320,
+        "output_tokens": 726251,
+        "total_tokens": 12460571,
+        "usage_responses": 509
+      }
+    },
+    "codex-ontoflow": {
+      "decision": 45,
+      "evidence": 44,
+      "families": {
+        "DE": {
+          "joint": 8,
+          "planned": 8
+        },
+        "MO": {
+          "joint": 6,
+          "planned": 8
+        },
+        "RV": {
+          "joint": 8,
+          "planned": 8
+        },
+        "SC": {
+          "joint": 7,
+          "planned": 8
+        },
+        "SV": {
+          "joint": 8,
+          "planned": 8
+        },
+        "VA": {
+          "joint": 7,
+          "planned": 8
+        }
+      },
+      "joint": 44,
+      "medians": {
+        "calls": 19.0,
+        "elapsed_seconds": 125.148,
+        "input_tokens": 524447.0
+      },
+      "missing_usage_calls": 0,
+      "planned": 48,
+      "submitted": 48,
+      "totals": {
+        "cached_input_tokens": 27196032,
+        "calls": 932,
+        "input_tokens": 28420476,
+        "output_tokens": 884923,
+        "total_tokens": 29305399,
+        "usage_responses": 932
+      }
+    },
+    "codex-ontoflow-v2": {
+      "decision": 44,
+      "evidence": 44,
+      "families": {
+        "DE": {
+          "joint": 8,
+          "planned": 8
+        },
+        "MO": {
+          "joint": 6,
+          "planned": 8
+        },
+        "RV": {
+          "joint": 8,
+          "planned": 8
+        },
+        "SC": {
+          "joint": 6,
+          "planned": 8
+        },
+        "SV": {
+          "joint": 8,
+          "planned": 8
+        },
+        "VA": {
+          "joint": 8,
+          "planned": 8
+        }
+      },
+      "joint": 44,
+      "medians": {
+        "calls": 16.5,
+        "elapsed_seconds": 114.174,
+        "input_tokens": 486304.5
+      },
+      "missing_usage_calls": 0,
+      "planned": 48,
+      "submitted": 47,
+      "totals": {
+        "cached_input_tokens": 24798080,
+        "calls": 860,
+        "input_tokens": 26024587,
+        "output_tokens": 802014,
+        "total_tokens": 26826601,
+        "usage_responses": 860
+      }
+    }
+  },
+  "calibrations": [
+    {
+      "case": "DE-01",
+      "historical": {
+        "decision": true,
+        "evidence": false
+      },
+      "replicate": "1",
+      "rescore": {
+        "decision": true,
+        "evidence": true
+      }
+    },
+    {
+      "case": "MO-01",
+      "historical": {
+        "decision": true,
+        "evidence": true
+      },
+      "replicate": "1",
+      "rescore": {
+        "decision": true,
+        "evidence": true
+      }
+    },
+    {
+      "case": "RV-01",
+      "historical": {
+        "decision": true,
+        "evidence": true
+      },
+      "replicate": "1",
+      "rescore": {
+        "decision": true,
+        "evidence": true
+      }
+    },
+    {
+      "case": "SC-01",
+      "historical": {
+        "decision": true,
+        "evidence": true
+      },
+      "replicate": "1",
+      "rescore": {
+        "decision": false,
+        "evidence": false
+      }
+    },
+    {
+      "case": "SV-01",
+      "historical": {
+        "decision": true,
+        "evidence": true
+      },
+      "replicate": "1",
+      "rescore": {
+        "decision": true,
+        "evidence": true
+      }
+    },
+    {
+      "case": "VA-01",
+      "historical": {
+        "decision": true,
+        "evidence": true
+      },
+      "replicate": "1",
+      "rescore": {
+        "decision": true,
+        "evidence": true
+      }
+    }
+  ],
+  "cost_note": "Reported response usage; input includes cached tokens. Missing usage is listed explicitly. No monetary price is inferred.",
+  "pairs": {
+    "native_to_v2": {
+      "changed": [
+        {
+          "case": "SC-01",
+          "left": true,
+          "replicate": "1",
+          "right": false
+        },
+        {
+          "case": "SC-03",
+          "left": false,
+          "replicate": "1",
+          "right": true
+        },
+        {
+          "case": "VA-01",
+          "left": false,
+          "replicate": "2",
+          "right": true
+        },
+        {
+          "case": "VA-03",
+          "left": false,
+          "replicate": "2",
+          "right": true
+        }
+      ],
+      "jointly_submitted": 46,
+      "left_on_jointly_submitted": {
+        "decision": 43,
+        "evidence": 42,
+        "families": {
+          "DE": {
+            "joint": 8,
+            "planned": 8
+          },
+          "MO": {
+            "joint": 6,
+            "planned": 8
+          },
+          "RV": {
+            "joint": 8,
+            "planned": 8
+          },
+          "SC": {
+            "joint": 6,
+            "planned": 6
+          },
+          "SV": {
+            "joint": 8,
+            "planned": 8
+          },
+          "VA": {
+            "joint": 6,
+            "planned": 8
+          }
+        },
+        "joint": 42,
+        "medians": {
+          "calls": 9.0,
+          "elapsed_seconds": 87.463,
+          "input_tokens": 172949.5
+        },
+        "missing_usage_calls": 0,
+        "planned": 46,
+        "submitted": 46,
+        "totals": {
+          "cached_input_tokens": 10304512,
+          "calls": 475,
+          "input_tokens": 10864487,
+          "output_tokens": 690020,
+          "total_tokens": 11554507,
+          "usage_responses": 475
+        }
+      },
+      "right_on_jointly_submitted": {
+        "decision": 43,
+        "evidence": 43,
+        "families": {
+          "DE": {
+            "joint": 8,
+            "planned": 8
+          },
+          "MO": {
+            "joint": 6,
+            "planned": 8
+          },
+          "RV": {
+            "joint": 8,
+            "planned": 8
+          },
+          "SC": {
+            "joint": 5,
+            "planned": 6
+          },
+          "SV": {
+            "joint": 8,
+            "planned": 8
+          },
+          "VA": {
+            "joint": 8,
+            "planned": 8
+          }
+        },
+        "joint": 43,
+        "medians": {
+          "calls": 17.0,
+          "elapsed_seconds": 114.174,
+          "input_tokens": 489205.5
+        },
+        "missing_usage_calls": 0,
+        "planned": 46,
+        "submitted": 46,
+        "totals": {
+          "cached_input_tokens": 24051200,
+          "calls": 829,
+          "input_tokens": 25234232,
+          "output_tokens": 773570,
+          "total_tokens": 26007802,
+          "usage_responses": 829
+        }
+      },
+      "transitions": {
+        "fail->fail": 3,
+        "fail->pass": 3,
+        "pass->fail": 1,
+        "pass->pass": 41
+      }
+    },
+    "v1_to_v2": {
+      "changed": [
+        {
+          "case": "SC-01",
+          "left": true,
+          "replicate": "1",
+          "right": false
+        },
+        {
+          "case": "SC-01",
+          "left": false,
+          "replicate": "2",
+          "right": true
+        },
+        {
+          "case": "SC-03",
+          "left": true,
+          "replicate": "2",
+          "right": false
+        },
+        {
+          "case": "VA-01",
+          "left": false,
+          "replicate": "2",
+          "right": true
+        }
+      ],
+      "jointly_submitted": 47,
+      "left_on_jointly_submitted": {
+        "decision": 44,
+        "evidence": 43,
+        "families": {
+          "DE": {
+            "joint": 8,
+            "planned": 8
+          },
+          "MO": {
+            "joint": 6,
+            "planned": 8
+          },
+          "RV": {
+            "joint": 8,
+            "planned": 8
+          },
+          "SC": {
+            "joint": 6,
+            "planned": 7
+          },
+          "SV": {
+            "joint": 8,
+            "planned": 8
+          },
+          "VA": {
+            "joint": 7,
+            "planned": 8
+          }
+        },
+        "joint": 43,
+        "medians": {
+          "calls": 19,
+          "elapsed_seconds": 118.777,
+          "input_tokens": 520701
+        },
+        "missing_usage_calls": 0,
+        "planned": 47,
+        "submitted": 47,
+        "totals": {
+          "cached_input_tokens": 26627584,
+          "calls": 912,
+          "input_tokens": 27832347,
+          "output_tokens": 860575,
+          "total_tokens": 28692922,
+          "usage_responses": 912
+        }
+      },
+      "right_on_jointly_submitted": {
+        "decision": 44,
+        "evidence": 44,
+        "families": {
+          "DE": {
+            "joint": 8,
+            "planned": 8
+          },
+          "MO": {
+            "joint": 6,
+            "planned": 8
+          },
+          "RV": {
+            "joint": 8,
+            "planned": 8
+          },
+          "SC": {
+            "joint": 6,
+            "planned": 7
+          },
+          "SV": {
+            "joint": 8,
+            "planned": 8
+          },
+          "VA": {
+            "joint": 8,
+            "planned": 8
+          }
+        },
+        "joint": 44,
+        "medians": {
+          "calls": 17,
+          "elapsed_seconds": 115.211,
+          "input_tokens": 488883
+        },
+        "missing_usage_calls": 0,
+        "planned": 47,
+        "submitted": 47,
+        "totals": {
+          "cached_input_tokens": 24459520,
+          "calls": 844,
+          "input_tokens": 25663918,
+          "output_tokens": 793320,
+          "total_tokens": 26457238,
+          "usage_responses": 844
+        }
+      },
+      "transitions": {
+        "fail->fail": 2,
+        "fail->pass": 2,
+        "pass->fail": 2,
+        "pass->pass": 42
+      }
+    }
+  },
+  "score": "FR24-natural-561f562db646-codex-ontoflow-v2-I-786a1018a47b"
+}

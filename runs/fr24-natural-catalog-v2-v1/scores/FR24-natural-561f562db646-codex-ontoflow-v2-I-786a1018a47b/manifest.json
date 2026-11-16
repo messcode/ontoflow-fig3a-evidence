@@ -1,0 +1,408 @@
+{
+  "adjudicated_sha256": "786a1018a47b972ae6d697ec97db6da6ceae8ac1f0e445f257484bc79f0c2af7",
+  "arbitration_model": "mlx-community/Qwen3-30B-A3B-Instruct-2507-4bit@e9675aa3ca5f900ccef55267914466d55ab325fa",
+  "arm": "codex-ontoflow-v2",
+  "arm_settings": "launcher:a4c4672d38fa6024a537a3d4ab283ad5d0fe9974cc015e2dc9698d38554cd332",
+  "eligibility_reason": "Development registry; later catalog-v2 replication; same blind review procedure as latest six-arm extension, Qwen3 arbitration",
+  "formal_eligible": false,
+  "gold": "casebook:1e8a6ae5bcc75c60ed904c8ab14de84465f81f98b296b4a3f7c9b2d6b28e2a24",
+  "harness": "measurement-freeze:561f562db64653b958f0f348c35e2683587f9330cb49c27a8df168e052e1aea7|catalog:aee4f393f279dd87fdf8e39664a5ce32edb54378bda513a4f1b335ffcd3a4d2a",
+  "metric": "scientific-decision-evidence-v1",
+  "model": "deepseek-flash",
+  "phase": "independent",
+  "protocol": "scientific-judgment-v1",
+  "roster": "FR24-natural-6arm-v1-268985c3f89a",
+  "rows": [
+    {
+      "case": "DE-01",
+      "group": "DE",
+      "replicate": "1",
+      "revision": "fe3d21b10be8dfd52dd7878f9fd4fe7b176f23b8ce59311712048d6b2d8977ac",
+      "status": "completed",
+      "value": 1
+    },
+    {
+      "case": "DE-01",
+      "group": "DE",
+      "replicate": "2",
+      "revision": "fe3d21b10be8dfd52dd7878f9fd4fe7b176f23b8ce59311712048d6b2d8977ac",
+      "status": "completed",
+      "value": 1
+    },
+    {
+      "case": "DE-02",
+      "group": "DE",
+      "replicate": "1",
+      "revision": "749b7fa08ad8c4fe882aafaf35095f506e378bf94e2041651acbf3dabfbe6945",
+      "status": "completed",
+      "value": 1
+    },
+    {
+      "case": "DE-02",
+      "group": "DE",
+      "replicate": "2",
+      "revision": "749b7fa08ad8c4fe882aafaf35095f506e378bf94e2041651acbf3dabfbe6945",
+      "status": "completed",
+      "value": 1
+    },
+    {
+      "case": "DE-03",
+      "group": "DE",
+      "replicate": "1",
+      "revision": "35b046447102e46d15e3e3c61fd17769f65e7fc96eca3bbc245550420cd6fbe1",
+      "status": "completed",
+      "value": 1
+    },
+    {
+      "case": "DE-03",
+      "group": "DE",
+      "replicate": "2",
+      "revision": "35b046447102e46d15e3e3c61fd17769f65e7fc96eca3bbc245550420cd6fbe1",
+      "status": "completed",
+      "value": 1
+    },
+    {
+      "case": "DE-04",
+      "group": "DE",
+      "replicate": "1",
+      "revision": "228e14f5e1854bc9758eda55cca14cf88f00bbd8a0fafd9af9de49765e7c3ddb",
+      "status": "completed",
+      "value": 1
+    },
+    {
+      "case": "DE-04",
+      "group": "DE",
+      "replicate": "2",
+      "revision": "228e14f5e1854bc9758eda55cca14cf88f00bbd8a0fafd9af9de49765e7c3ddb",
+      "status": "completed",
+      "value": 1
+    },
+    {
+      "case": "MO-01",
+      "group": "MO",
+      "replicate": "1",
+      "revision": "d50b7f3fd563bde0fd5db79cc3a84ae2fd313454f56f9866ebc28f90b9466fc7",
+      "status": "completed",
+      "value": 1
+    },
+    {
+      "case": "MO-01",
+      "group": "MO",
+      "replicate": "2",
+      "revision": "d50b7f3fd563bde0fd5db79cc3a84ae2fd313454f56f9866ebc28f90b9466fc7",
+      "status": "completed",
+      "value": 1
+    },
+    {
+      "case": "MO-02",
+      "group": "MO",
+      "replicate": "1",
+      "revision": "165513035cd539023df50870e60822a3eaf58de9c1a565c30239743e6c1681d6",
+      "status": "completed",
+      "value": 1
+    },
+    {
+      "case": "MO-02",
+      "group": "MO",
+      "replicate": "2",
+      "revision": "165513035cd539023df50870e60822a3eaf58de9c1a565c30239743e6c1681d6",
+      "status": "completed",
+      "value": 1
+    },
+    {
+      "case": "MO-03",
+      "group": "MO",
+      "replicate": "1",
+      "revision": "e4f94ed848c80d8c642fbe76442674bf2440a330949b9d2b0366661688a2a31f",
+      "status": "completed",
+      "value": 1
+    },
+    {
+      "case": "MO-03",
+      "group": "MO",
+      "replicate": "2",
+      "revision": "e4f94ed848c80d8c642fbe76442674bf2440a330949b9d2b0366661688a2a31f",
+      "status": "completed",
+      "value": 1
+    },
+    {
+      "case": "MO-04",
+      "group": "MO",
+      "replicate": "1",
+      "revision": "f00e9b22e37d15c15384e76ac6eff59327a825c183df08a69fb34f502ccd1862",
+      "status": "completed",
+      "value": 0
+    },
+    {
+      "case": "MO-04",
+      "group": "MO",
+      "replicate": "2",
+      "revision": "f00e9b22e37d15c15384e76ac6eff59327a825c183df08a69fb34f502ccd1862",
+      "status": "completed",
+      "value": 0
+    },
+    {
+      "case": "RV-01",
+      "group": "RV",
+      "replicate": "1",
+      "revision": "a107800d79d2e7232ebfa2203d7b56789cab10a967f982a2140cfb91957f8236",
+      "status": "completed",
+      "value": 1
+    },
+    {
+      "case": "RV-01",
+      "group": "RV",
+      "replicate": "2",
+      "revision": "a107800d79d2e7232ebfa2203d7b56789cab10a967f982a2140cfb91957f8236",
+      "status": "completed",
+      "value": 1
+    },
+    {
+      "case": "RV-02",
+      "group": "RV",
+      "replicate": "1",
+      "revision": "e1e98ea7bf7a81933042c394fa7ab2c70440d4f38d58d37d4225dd50a81abccb",
+      "status": "completed",
+      "value": 1
+    },
+    {
+      "case": "RV-02",
+      "group": "RV",
+      "replicate": "2",
+      "revision": "e1e98ea7bf7a81933042c394fa7ab2c70440d4f38d58d37d4225dd50a81abccb",
+      "status": "completed",
+      "value": 1
+    },
+    {
+      "case": "RV-03",
+      "group": "RV",
+      "replicate": "1",
+      "revision": "d41a73cbb09e2d3b8a8dd56d969ef2270f582b7b5a9a7e1d21f6d6ede6b292de",
+      "status": "completed",
+      "value": 1
+    },
+    {
+      "case": "RV-03",
+      "group": "RV",
+      "replicate": "2",
+      "revision": "d41a73cbb09e2d3b8a8dd56d969ef2270f582b7b5a9a7e1d21f6d6ede6b292de",
+      "status": "completed",
+      "value": 1
+    },
+    {
+      "case": "RV-04",
+      "group": "RV",
+      "replicate": "1",
+      "revision": "1f9c404a3563f9e5a1cdc6fa6482c2a1f4173c5daca32784ef7acd0552b318d4",
+      "status": "completed",
+      "value": 1
+    },
+    {
+      "case": "RV-04",
+      "group": "RV",
+      "replicate": "2",
+      "revision": "1f9c404a3563f9e5a1cdc6fa6482c2a1f4173c5daca32784ef7acd0552b318d4",
+      "status": "completed",
+      "value": 1
+    },
+    {
+      "case": "SC-01",
+      "group": "SC",
+      "replicate": "1",
+      "revision": "815a6416f53d464b004a212862f820ee23bd2c1fc02c8872bec422071e8db385",
+      "status": "completed",
+      "value": 0
+    },
+    {
+      "case": "SC-01",
+      "group": "SC",
+      "replicate": "2",
+      "revision": "815a6416f53d464b004a212862f820ee23bd2c1fc02c8872bec422071e8db385",
+      "status": "completed",
+      "value": 1
+    },
+    {
+      "case": "SC-02",
+      "group": "SC",
+      "replicate": "1",
+      "revision": "543459a4f8ac3e15ac858fd5e610cb3176eb30ae6a67ad7291ec90e4454e5f00",
+      "status": "completed",
+      "value": 1
+    },
+    {
+      "case": "SC-02",
+      "group": "SC",
+      "replicate": "2",
+      "revision": "543459a4f8ac3e15ac858fd5e610cb3176eb30ae6a67ad7291ec90e4454e5f00",
+      "status": "completed",
+      "value": 1
+    },
+    {
+      "case": "SC-03",
+      "group": "SC",
+      "replicate": "1",
+      "revision": "4b48bbb6baff617e0dddcf953970b715aba780cb663787e51e3352aa5cec5802",
+      "status": "completed",
+      "value": 1
+    },
+    {
+      "case": "SC-03",
+      "group": "SC",
+      "replicate": "2",
+      "revision": "4b48bbb6baff617e0dddcf953970b715aba780cb663787e51e3352aa5cec5802",
+      "status": "failed",
+      "value": 0
+    },
+    {
+      "case": "SC-04",
+      "group": "SC",
+      "replicate": "1",
+      "revision": "1b8e83f04975337e5553e971ddda666241aacbcc4ccb72d0bcf252abe12d3f52",
+      "status": "completed",
+      "value": 1
+    },
+    {
+      "case": "SC-04",
+      "group": "SC",
+      "replicate": "2",
+      "revision": "1b8e83f04975337e5553e971ddda666241aacbcc4ccb72d0bcf252abe12d3f52",
+      "status": "completed",
+      "value": 1
+    },
+    {
+      "case": "SV-01",
+      "group": "SV",
+      "replicate": "1",
+      "revision": "d9cccbfab7f2d033f0063eeffab168c402f00697255e4dfe582c3db2df0d76b2",
+      "status": "completed",
+      "value": 1
+    },
+    {
+      "case": "SV-01",
+      "group": "SV",
+      "replicate": "2",
+      "revision": "d9cccbfab7f2d033f0063eeffab168c402f00697255e4dfe582c3db2df0d76b2",
+      "status": "completed",
+      "value": 1
+    },
+    {
+      "case": "SV-02",
+      "group": "SV",
+      "replicate": "1",
+      "revision": "5471b99591ee86cf8dab6db8f6d0d39e1b5eb7db088332c36f2f65f8d33ddd50",
+      "status": "completed",
+      "value": 1
+    },
+    {
+      "case": "SV-02",
+      "group": "SV",
+      "replicate": "2",
+      "revision": "5471b99591ee86cf8dab6db8f6d0d39e1b5eb7db088332c36f2f65f8d33ddd50",
+      "status": "completed",
+      "value": 1
+    },
+    {
+      "case": "SV-03",
+      "group": "SV",
+      "replicate": "1",
+      "revision": "636ec5d4e687bf8d414dabc89a49ac070611698d1f1b7388ffff58a3d827aee0",
+      "status": "completed",
+      "value": 1
+    },
+    {
+      "case": "SV-03",
+      "group": "SV",
+      "replicate": "2",
+      "revision": "636ec5d4e687bf8d414dabc89a49ac070611698d1f1b7388ffff58a3d827aee0",
+      "status": "completed",
+      "value": 1
+    },
+    {
+      "case": "SV-04",
+      "group": "SV",
+      "replicate": "1",
+      "revision": "c59413e459c5023c77ff0d95da300e7491ff9ed98299e6c78521096a70a48a8a",
+      "status": "completed",
+      "value": 1
+    },
+    {
+      "case": "SV-04",
+      "group": "SV",
+      "replicate": "2",
+      "revision": "c59413e459c5023c77ff0d95da300e7491ff9ed98299e6c78521096a70a48a8a",
+      "status": "completed",
+      "value": 1
+    },
+    {
+      "case": "VA-01",
+      "group": "VA",
+      "replicate": "1",
+      "revision": "7ad476f2d594af62c6ef6af418ab3988449912b9281af6e24957b3948b19ab32",
+      "status": "completed",
+      "value": 1
+    },
+    {
+      "case": "VA-01",
+      "group": "VA",
+      "replicate": "2",
+      "revision": "7ad476f2d594af62c6ef6af418ab3988449912b9281af6e24957b3948b19ab32",
+      "status": "completed",
+      "value": 1
+    },
+    {
+      "case": "VA-02",
+      "group": "VA",
+      "replicate": "1",
+      "revision": "d97ad5abbd2c0d27ae4f59cb3d3ab9b0d53122c12cf393770d14dc9e33f64d29",
+      "status": "completed",
+      "value": 1
+    },
+    {
+      "case": "VA-02",
+      "group": "VA",
+      "replicate": "2",
+      "revision": "d97ad5abbd2c0d27ae4f59cb3d3ab9b0d53122c12cf393770d14dc9e33f64d29",
+      "status": "completed",
+      "value": 1
+    },
+    {
+      "case": "VA-03",
+      "group": "VA",
+      "replicate": "1",
+      "revision": "b032093e4dc6a61b91af2355f9d32e830b27329002915a468fb71b96b4c12bbf",
+      "status": "completed",
+      "value": 1
+    },
+    {
+      "case": "VA-03",
+      "group": "VA",
+      "replicate": "2",
+      "revision": "b032093e4dc6a61b91af2355f9d32e830b27329002915a468fb71b96b4c12bbf",
+      "status": "completed",
+      "value": 1
+    },
+    {
+      "case": "VA-04",
+      "group": "VA",
+      "replicate": "1",
+      "revision": "96e7d1606295dca4000cdb1649d99a70ac44fe1089e275a473cf4696ccba1589",
+      "status": "completed",
+      "value": 1
+    },
+    {
+      "case": "VA-04",
+      "group": "VA",
+      "replicate": "2",
+      "revision": "96e7d1606295dca4000cdb1649d99a70ac44fe1089e275a473cf4696ccba1589",
+      "status": "completed",
+      "value": 1
+    }
+  ],
+  "run": "FR24-natural-561f562db646-codex-ontoflow-v2",
+  "score": "FR24-natural-561f562db646-codex-ontoflow-v2-I-786a1018a47b",
+  "scorer": "natural-analysis-review:d81175d95a49b0aff083f95ff8a542819982f65993e4757b1baf4e983bfd0e81",
+  "selection": "24 frozen natural cases, two planned replicates",
+  "shared_settings": "natural-material:268985c3f89ad9242f5553d343e1cffd79c10481b099c83e6bdeaa8d3f3afd0f|deepseek-flash|2cpu,6GiB,900s|replicates=1,2",
+  "system": "codex-ontoflow-catalog-v2@88a4784a5228",
+  "track": "fig3a"
+}
