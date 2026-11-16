@@ -1,0 +1,62 @@
+[
+  {
+    "arm": "codex",
+    "calls": 510,
+    "decision": 43,
+    "evidence": 42,
+    "joint": 42,
+    "median_seconds": 90.09,
+    "posted": "FR24-natural-6a2482caea42-codex-I-616c95764359",
+    "submitted": 46
+  },
+  {
+    "arm": "claude",
+    "calls": 1048,
+    "decision": 45,
+    "evidence": 42,
+    "joint": 41,
+    "median_seconds": 252.5445,
+    "posted": "FR24-natural-6a2482caea42-claude-I-616c95764359",
+    "submitted": 47
+  },
+  {
+    "arm": "biomni",
+    "calls": 931,
+    "decision": 42,
+    "evidence": 40,
+    "joint": 39,
+    "median_seconds": 124.965,
+    "posted": "FR24-natural-6a2482caea42-biomni-I-616c95764359",
+    "submitted": 48
+  },
+  {
+    "arm": "cellvoyager",
+    "calls": 1006,
+    "decision": 44,
+    "evidence": 40,
+    "joint": 40,
+    "median_seconds": 162.2575,
+    "posted": "FR24-natural-6a2482caea42-cellvoyager-I-616c95764359",
+    "submitted": 47
+  },
+  {
+    "arm": "codex-ontoflow",
+    "calls": 932,
+    "decision": 45,
+    "evidence": 44,
+    "joint": 44,
+    "median_seconds": 125.148,
+    "posted": "FR24-natural-6a2482caea42-codex-ontoflow-I-616c95764359",
+    "submitted": 48
+  },
+  {
+    "arm": "claude-ontoflow",
+    "calls": 1406,
+    "decision": 43,
+    "evidence": 44,
+    "joint": 42,
+    "median_seconds": 204.829,
+    "posted": "FR24-natural-0c735f4c9fc6-claude-ontoflow-I-bc39114794e4",
+    "submitted": 48
+  }
+]
