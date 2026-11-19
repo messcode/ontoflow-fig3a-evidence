@@ -1,0 +1,658 @@
+{
+  "arms": {
+    "biomni": {
+      "decision_correct": 42,
+      "evidence_correct": 37,
+      "joint": 37,
+      "planned": 48,
+      "prior_decision_correct": 42,
+      "prior_evidence_correct": 40,
+      "prior_joint": 39,
+      "prior_score": "FR24-natural-6a2482caea42-biomni-I-616c95764359",
+      "score": "FR24-natural-6a2482caea42-biomni-I-astra62-a3d40000ba61",
+      "score_sha256": "44cd56e48cf38ee70457e631a2c83736d2962e4ee93860fe0b1f3ed33b061edb",
+      "submitted": 48
+    },
+    "boundary": {
+      "decision_correct": 43,
+      "evidence_correct": 44,
+      "joint": 43,
+      "planned": 48,
+      "prior_decision_correct": 44,
+      "prior_evidence_correct": 42,
+      "prior_joint": 42,
+      "prior_score": "FR24-boundary-2d70bf57261e-boundary-I-0a1e9dcb73ca",
+      "score": "FR24-boundary-2d70bf57261e-boundary-I-astra62-a3d40000ba61",
+      "score_sha256": "76fbf1c12e8f833b357fd071f10c096a98278d3b3ac23ca0a97bc7ec10aa393e",
+      "submitted": 48
+    },
+    "candidate": {
+      "decision_correct": 47,
+      "evidence_correct": 43,
+      "joint": 43,
+      "planned": 48,
+      "prior_decision_correct": 45,
+      "prior_evidence_correct": 45,
+      "prior_joint": 44,
+      "prior_score": "FR24-efficiency-98254d0dcba3-candidate-I-8ecd3f148a84",
+      "score": "FR24-efficiency-98254d0dcba3-candidate-I-astra62-a3d40000ba61",
+      "score_sha256": "2e71050f5e0eaa35f24f404da849e28e8eb1c33b582cd7dbdec2f8b9ff44a145",
+      "submitted": 48
+    },
+    "catalog-v2": {
+      "decision_correct": 44,
+      "evidence_correct": 43,
+      "joint": 41,
+      "planned": 48,
+      "prior_decision_correct": 43,
+      "prior_evidence_correct": 40,
+      "prior_joint": 40,
+      "prior_score": "FR24-efficiency-98254d0dcba3-catalog-v2-I-8ecd3f148a84",
+      "score": "FR24-efficiency-98254d0dcba3-catalog-v2-I-astra62-a3d40000ba61",
+      "score_sha256": "5bb24a55eb9e5c2bd4d43364496538c4e19645e2d7dd46a8924d252fea5ebf3f",
+      "submitted": 48
+    },
+    "cellvoyager": {
+      "decision_correct": 44,
+      "evidence_correct": 40,
+      "joint": 40,
+      "planned": 48,
+      "prior_decision_correct": 44,
+      "prior_evidence_correct": 40,
+      "prior_joint": 40,
+      "prior_score": "FR24-natural-6a2482caea42-cellvoyager-I-616c95764359",
+      "score": "FR24-natural-6a2482caea42-cellvoyager-I-astra62-a3d40000ba61",
+      "score_sha256": "bf609bd7189abde15e62a34c5a2026e2229961e3bcc271bca0b1d958d53bb727",
+      "submitted": 47
+    },
+    "claude": {
+      "decision_correct": 45,
+      "evidence_correct": 42,
+      "joint": 41,
+      "planned": 48,
+      "prior_decision_correct": 45,
+      "prior_evidence_correct": 42,
+      "prior_joint": 41,
+      "prior_score": "FR24-natural-6a2482caea42-claude-I-616c95764359",
+      "score": "FR24-natural-6a2482caea42-claude-I-astra62-a3d40000ba61",
+      "score_sha256": "d5fd9b62a50f5b1a7bb6d9523b1ab5d313999040b33bd5a25a478558a671713a",
+      "submitted": 47
+    },
+    "claude-ontoflow": {
+      "decision_correct": 47,
+      "evidence_correct": 44,
+      "joint": 44,
+      "planned": 48,
+      "prior_decision_correct": 43,
+      "prior_evidence_correct": 44,
+      "prior_joint": 42,
+      "prior_score": "FR24-natural-0c735f4c9fc6-claude-ontoflow-I-bc39114794e4",
+      "score": "FR24-natural-0c735f4c9fc6-claude-ontoflow-I-astra62-a3d40000ba61",
+      "score_sha256": "9b5fda40f0dca39ecc528e4b2bd38da1d4f3463beaee47c886ded4fbff3c5d04",
+      "submitted": 48
+    },
+    "codex": {
+      "decision_correct": 43,
+      "evidence_correct": 42,
+      "joint": 42,
+      "planned": 48,
+      "prior_decision_correct": 43,
+      "prior_evidence_correct": 42,
+      "prior_joint": 42,
+      "prior_score": "FR24-natural-6a2482caea42-codex-I-616c95764359",
+      "score": "FR24-natural-6a2482caea42-codex-I-astra62-a3d40000ba61",
+      "score_sha256": "388f3b5b5727a65a2d80864b2e3cf986393bfdca1a330f997bf5e72cb7bc37b4",
+      "submitted": 46
+    },
+    "codex-ontoflow": {
+      "decision_correct": 45,
+      "evidence_correct": 44,
+      "joint": 44,
+      "planned": 48,
+      "prior_decision_correct": 45,
+      "prior_evidence_correct": 44,
+      "prior_joint": 44,
+      "prior_score": "FR24-natural-6a2482caea42-codex-ontoflow-I-616c95764359",
+      "score": "FR24-natural-6a2482caea42-codex-ontoflow-I-astra62-a3d40000ba61",
+      "score_sha256": "4d0c90d152c190f1392ce7bc787dbed8f5498e3385c8079afacfd9a06fd21d1d",
+      "submitted": 48
+    },
+    "codex-ontoflow-v2": {
+      "decision_correct": 45,
+      "evidence_correct": 42,
+      "joint": 42,
+      "planned": 48,
+      "prior_decision_correct": 44,
+      "prior_evidence_correct": 44,
+      "prior_joint": 44,
+      "prior_score": "FR24-natural-561f562db646-codex-ontoflow-v2-I-786a1018a47b",
+      "score": "FR24-natural-561f562db646-codex-ontoflow-v2-I-astra62-a3d40000ba61",
+      "score_sha256": "e5027cdc7747d681622e0f9eb68280e2531b8c1b6b3feb1e80960738f3cd02cf",
+      "submitted": 47
+    },
+    "plain": {
+      "decision_correct": 42,
+      "evidence_correct": 43,
+      "joint": 42,
+      "planned": 48,
+      "prior_decision_correct": 42,
+      "prior_evidence_correct": 38,
+      "prior_joint": 38,
+      "prior_score": "FR24-boundary-773da31839aa-plain-I-0a1e9dcb73ca",
+      "score": "FR24-boundary-773da31839aa-plain-I-astra62-a3d40000ba61",
+      "score_sha256": "4c70d15c0317dabc45445d687267a6671a88d39111fc4e83c738fc88298d7bea",
+      "submitted": 47
+    }
+  },
+  "boundary_vs_plain": {
+    "both_pass": 40,
+    "boundary_joint_on_both_submitted": 42,
+    "boundary_only": 3,
+    "neither": 3,
+    "plain_joint_on_both_submitted": 42,
+    "plain_only": 2
+  },
+  "changes": [
+    {
+      "arm": "biomni",
+      "case": "VA-01",
+      "cohort": "natural24-OpwvIF9h/analysis-main-v2",
+      "new": {
+        "decision_correct": false,
+        "evidence_correct": false
+      },
+      "prior": {
+        "decision_correct": false,
+        "evidence_correct": true
+      },
+      "rep": 2
+    },
+    {
+      "arm": "biomni",
+      "case": "VA-02",
+      "cohort": "natural24-OpwvIF9h/analysis-main-v2",
+      "new": {
+        "decision_correct": true,
+        "evidence_correct": false
+      },
+      "prior": {
+        "decision_correct": true,
+        "evidence_correct": true
+      },
+      "rep": 1
+    },
+    {
+      "arm": "biomni",
+      "case": "DE-02",
+      "cohort": "natural24-OpwvIF9h/analysis-main-v2",
+      "new": {
+        "decision_correct": true,
+        "evidence_correct": false
+      },
+      "prior": {
+        "decision_correct": true,
+        "evidence_correct": true
+      },
+      "rep": 2
+    },
+    {
+      "arm": "claude-ontoflow",
+      "case": "VA-03",
+      "cohort": "claude-surface-k3t3gP/extension",
+      "new": {
+        "decision_correct": true,
+        "evidence_correct": true
+      },
+      "prior": {
+        "decision_correct": false,
+        "evidence_correct": false
+      },
+      "rep": 2
+    },
+    {
+      "arm": "claude-ontoflow",
+      "case": "RV-04",
+      "cohort": "claude-surface-k3t3gP/extension",
+      "new": {
+        "decision_correct": true,
+        "evidence_correct": true
+      },
+      "prior": {
+        "decision_correct": false,
+        "evidence_correct": true
+      },
+      "rep": 2
+    },
+    {
+      "arm": "claude-ontoflow",
+      "case": "SC-03",
+      "cohort": "claude-surface-k3t3gP/extension",
+      "new": {
+        "decision_correct": true,
+        "evidence_correct": true
+      },
+      "prior": {
+        "decision_correct": false,
+        "evidence_correct": true
+      },
+      "rep": 1
+    },
+    {
+      "arm": "claude-ontoflow",
+      "case": "SC-01",
+      "cohort": "claude-surface-k3t3gP/extension",
+      "new": {
+        "decision_correct": true,
+        "evidence_correct": false
+      },
+      "prior": {
+        "decision_correct": false,
+        "evidence_correct": false
+      },
+      "rep": 2
+    },
+    {
+      "arm": "claude-ontoflow",
+      "case": "DE-01",
+      "cohort": "claude-surface-k3t3gP/extension",
+      "new": {
+        "decision_correct": true,
+        "evidence_correct": false
+      },
+      "prior": {
+        "decision_correct": true,
+        "evidence_correct": true
+      },
+      "rep": 1
+    },
+    {
+      "arm": "codex-ontoflow-v2",
+      "case": "DE-02",
+      "cohort": "catalog-v2-rescore-20261116",
+      "new": {
+        "decision_correct": true,
+        "evidence_correct": false
+      },
+      "prior": {
+        "decision_correct": true,
+        "evidence_correct": true
+      },
+      "rep": 1
+    },
+    {
+      "arm": "codex-ontoflow-v2",
+      "case": "SC-01",
+      "cohort": "catalog-v2-rescore-20261116",
+      "new": {
+        "decision_correct": true,
+        "evidence_correct": false
+      },
+      "prior": {
+        "decision_correct": false,
+        "evidence_correct": false
+      },
+      "rep": 1
+    },
+    {
+      "arm": "codex-ontoflow-v2",
+      "case": "VA-02",
+      "cohort": "catalog-v2-rescore-20261116",
+      "new": {
+        "decision_correct": true,
+        "evidence_correct": false
+      },
+      "prior": {
+        "decision_correct": true,
+        "evidence_correct": true
+      },
+      "rep": 1
+    },
+    {
+      "arm": "catalog-v2",
+      "case": "VA-03",
+      "cohort": "six-family-freeze-pilot1",
+      "new": {
+        "decision_correct": true,
+        "evidence_correct": true
+      },
+      "prior": {
+        "decision_correct": true,
+        "evidence_correct": false
+      },
+      "rep": 2
+    },
+    {
+      "arm": "candidate",
+      "case": "DE-02",
+      "cohort": "six-family-freeze-pilot1",
+      "new": {
+        "decision_correct": true,
+        "evidence_correct": false
+      },
+      "prior": {
+        "decision_correct": true,
+        "evidence_correct": true
+      },
+      "rep": 2
+    },
+    {
+      "arm": "candidate",
+      "case": "RV-02",
+      "cohort": "full24-frozen-extension1",
+      "new": {
+        "decision_correct": true,
+        "evidence_correct": false
+      },
+      "prior": {
+        "decision_correct": true,
+        "evidence_correct": true
+      },
+      "rep": 2
+    },
+    {
+      "arm": "catalog-v2",
+      "case": "SV-03",
+      "cohort": "full24-frozen-extension1",
+      "new": {
+        "decision_correct": false,
+        "evidence_correct": true
+      },
+      "prior": {
+        "decision_correct": true,
+        "evidence_correct": true
+      },
+      "rep": 2
+    },
+    {
+      "arm": "catalog-v2",
+      "case": "DE-01",
+      "cohort": "full24-frozen-extension1",
+      "new": {
+        "decision_correct": true,
+        "evidence_correct": false
+      },
+      "prior": {
+        "decision_correct": false,
+        "evidence_correct": false
+      },
+      "rep": 2
+    },
+    {
+      "arm": "candidate",
+      "case": "VA-02",
+      "cohort": "full24-frozen-extension1",
+      "new": {
+        "decision_correct": true,
+        "evidence_correct": false
+      },
+      "prior": {
+        "decision_correct": true,
+        "evidence_correct": true
+      },
+      "rep": 2
+    },
+    {
+      "arm": "catalog-v2",
+      "case": "VA-01",
+      "cohort": "full24-frozen-extension1",
+      "new": {
+        "decision_correct": true,
+        "evidence_correct": true
+      },
+      "prior": {
+        "decision_correct": true,
+        "evidence_correct": false
+      },
+      "rep": 2
+    },
+    {
+      "arm": "catalog-v2",
+      "case": "VA-02",
+      "cohort": "full24-frozen-extension1",
+      "new": {
+        "decision_correct": true,
+        "evidence_correct": false
+      },
+      "prior": {
+        "decision_correct": false,
+        "evidence_correct": false
+      },
+      "rep": 1
+    },
+    {
+      "arm": "candidate",
+      "case": "MO-02",
+      "cohort": "full24-frozen-extension1",
+      "new": {
+        "decision_correct": true,
+        "evidence_correct": true
+      },
+      "prior": {
+        "decision_correct": false,
+        "evidence_correct": true
+      },
+      "rep": 2
+    },
+    {
+      "arm": "candidate",
+      "case": "SV-03",
+      "cohort": "full24-frozen-extension1",
+      "new": {
+        "decision_correct": true,
+        "evidence_correct": true
+      },
+      "prior": {
+        "decision_correct": true,
+        "evidence_correct": false
+      },
+      "rep": 2
+    },
+    {
+      "arm": "catalog-v2",
+      "case": "SC-02",
+      "cohort": "full24-frozen-extension1",
+      "new": {
+        "decision_correct": true,
+        "evidence_correct": false
+      },
+      "prior": {
+        "decision_correct": true,
+        "evidence_correct": true
+      },
+      "rep": 1
+    },
+    {
+      "arm": "catalog-v2",
+      "case": "SV-03",
+      "cohort": "full24-frozen-extension1",
+      "new": {
+        "decision_correct": true,
+        "evidence_correct": true
+      },
+      "prior": {
+        "decision_correct": true,
+        "evidence_correct": false
+      },
+      "rep": 1
+    },
+    {
+      "arm": "catalog-v2",
+      "case": "DE-01",
+      "cohort": "full24-frozen-extension1",
+      "new": {
+        "decision_correct": false,
+        "evidence_correct": true
+      },
+      "prior": {
+        "decision_correct": false,
+        "evidence_correct": false
+      },
+      "rep": 1
+    },
+    {
+      "arm": "candidate",
+      "case": "DE-01",
+      "cohort": "full24-frozen-extension1",
+      "new": {
+        "decision_correct": true,
+        "evidence_correct": false
+      },
+      "prior": {
+        "decision_correct": false,
+        "evidence_correct": false
+      },
+      "rep": 2
+    },
+    {
+      "arm": "plain",
+      "case": "SC-01",
+      "cohort": "fr24-boundary-full-v2IN5Z",
+      "new": {
+        "decision_correct": true,
+        "evidence_correct": true
+      },
+      "prior": {
+        "decision_correct": true,
+        "evidence_correct": false
+      },
+      "rep": 2
+    },
+    {
+      "arm": "plain",
+      "case": "MO-02",
+      "cohort": "fr24-boundary-full-v2IN5Z",
+      "new": {
+        "decision_correct": true,
+        "evidence_correct": true
+      },
+      "prior": {
+        "decision_correct": true,
+        "evidence_correct": false
+      },
+      "rep": 2
+    },
+    {
+      "arm": "plain",
+      "case": "VA-03",
+      "cohort": "fr24-boundary-full-v2IN5Z",
+      "new": {
+        "decision_correct": false,
+        "evidence_correct": true
+      },
+      "prior": {
+        "decision_correct": false,
+        "evidence_correct": false
+      },
+      "rep": 1
+    },
+    {
+      "arm": "plain",
+      "case": "SC-01",
+      "cohort": "fr24-boundary-full-v2IN5Z",
+      "new": {
+        "decision_correct": true,
+        "evidence_correct": true
+      },
+      "prior": {
+        "decision_correct": true,
+        "evidence_correct": false
+      },
+      "rep": 1
+    },
+    {
+      "arm": "boundary",
+      "case": "VA-01",
+      "cohort": "fr24-boundary-full-v2IN5Z",
+      "new": {
+        "decision_correct": true,
+        "evidence_correct": true
+      },
+      "prior": {
+        "decision_correct": true,
+        "evidence_correct": false
+      },
+      "rep": 1
+    },
+    {
+      "arm": "plain",
+      "case": "VA-03",
+      "cohort": "fr24-boundary-full-v2IN5Z",
+      "new": {
+        "decision_correct": true,
+        "evidence_correct": true
+      },
+      "prior": {
+        "decision_correct": true,
+        "evidence_correct": false
+      },
+      "rep": 2
+    },
+    {
+      "arm": "boundary",
+      "case": "RV-03",
+      "cohort": "fr24-boundary-full-v2IN5Z",
+      "new": {
+        "decision_correct": false,
+        "evidence_correct": true
+      },
+      "prior": {
+        "decision_correct": true,
+        "evidence_correct": true
+      },
+      "rep": 1
+    },
+    {
+      "arm": "boundary",
+      "case": "SC-01",
+      "cohort": "fr24-boundary-full-v2IN5Z",
+      "new": {
+        "decision_correct": true,
+        "evidence_correct": true
+      },
+      "prior": {
+        "decision_correct": true,
+        "evidence_correct": false
+      },
+      "rep": 2
+    }
+  ],
+  "freeze": {
+    "arms": 11,
+    "audits": 51,
+    "disagreements": 49,
+    "endpoint": "/v1/responses",
+    "input_sha256": "6b499ed571112f99ae08ce5a9d6533ec8c3992af65182e5c1de5a3b605d02db4",
+    "model": "gpt-6.2-astra",
+    "planned": 528,
+    "requests": 100,
+    "source_seals": {
+      "catalog-v2-rescore-20261116": "2e045bc753ee3afe2e35d5e3223105c631881118f38617e10b26142064a30165",
+      "claude-surface-k3t3gP/extension": "aa36d09ddf3e629c99316ffbc2f420e223731ecea0eb72ddae5316bb11d9e079",
+      "fr24-boundary-full-v2IN5Z": "57d9268b32e02197292970d55946a1dffc0627e1a48faffc37811c1cc38031f3",
+      "full24-frozen-extension1": "d77ea1ab9ed2d94461479f9ee52b559b55276f8fda02bfd89efca6db170355b6",
+      "natural24-OpwvIF9h/analysis-main-v2": "2ed5019b7a9b367e7172cfda8c4f820423597e3e9d8ae7c1732247ff5b1621f5",
+      "six-family-freeze-pilot1": "d14958c21a2d5b2e62af5208d805760c0af2cd3828fe32e1f217b0e7f0731a56"
+    },
+    "submitted": 522
+  },
+  "receipt": {
+    "batch_usage_usd": "1.201664",
+    "model": "gpt-6.2-astra",
+    "response_sha256": "a3d40000ba61d55dcd273cb72eea8c2cbe01dd000cde1b371a738a0dd976ae75",
+    "tokens": {
+      "cache_write_12h": 0,
+      "cache_write_30m": 138772,
+      "cached_input": 0,
+      "output": 16433,
+      "reasoning": 3876,
+      "uncached_input": 44786
+    }
+  },
+  "review_counts": {
+    "audit_disagrees_with_initial": 12,
+    "disagreement": 49,
+    "disagreement_changed_vs_previous": 22,
+    "sampled_agreement": 51,
+    "sampled_agreement_changed_vs_previous": 11
+  }
+}
