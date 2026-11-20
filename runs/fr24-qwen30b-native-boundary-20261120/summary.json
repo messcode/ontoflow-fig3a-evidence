@@ -1,0 +1,129 @@
+{
+  "adapter_sha256": "b36415ba5c43ccf67152877889791560265636fc1bd17a7396f738f9fe57a897",
+  "arms": {
+    "boundary": {
+      "calls": 3651,
+      "decision": 6,
+      "empty_success": 314,
+      "evidence": 2,
+      "host_errors": 0,
+      "input_tokens": 45937798,
+      "native_commands": 3187,
+      "output_tokens": 403913,
+      "planned": 48,
+      "rejected_responses": 0,
+      "score": "FR24-qwen30b-4196b0469a56-boundary-I-astra62-148250c38796",
+      "sha256": "143fbbd49dd91472a39467156486a667d33681f758b89d6beede85e3f4ddc74a",
+      "submitted": 30,
+      "tool_calls": 3213,
+      "total_tokens": 46341711,
+      "usage_responses": 3651,
+      "value": 2
+    },
+    "plain": {
+      "calls": 3303,
+      "decision": 6,
+      "empty_success": 385,
+      "evidence": 1,
+      "host_errors": 0,
+      "input_tokens": 41169999,
+      "native_commands": 2910,
+      "output_tokens": 372710,
+      "planned": 48,
+      "rejected_responses": 1,
+      "score": "FR24-qwen30b-4196b0469a56-plain-I-astra62-148250c38796",
+      "sha256": "1b36a45b1d267bdd9ce3b40472851ff452929b26f724462c42ac18f4d3dc7f2d",
+      "submitted": 34,
+      "tool_calls": 2930,
+      "total_tokens": 41542709,
+      "usage_responses": 3302,
+      "value": 1
+    }
+  },
+  "compiler": {
+    "__init__.py": "11c99be7d1fbb42791bdd11543b311c19527ad740f850a657176b172de7f8c05",
+    "__main__.py": "c9ddc8484b1a4111ee8a834fd66e0346d830af6455568f65538282abec52ab05",
+    "_worker.py": "bdd4d7fbea25c5417db9cb53b83369ad71f1d7b498c563f29f713f7d1ecf2cce",
+    "inspectors.py": "036dcd29fdacea991df0d82d88ff7a3cecfbf6cd408c6d9b108ec93451a900bc",
+    "rules.py": "1a00ea78e7b83e22fc588d4eb66b5131f5745615fe0b596d226bbd019dacba9f",
+    "schema.py": "96492b19fdbcef172c0507af609deccb9d0776bab22cd8c377ba648fcbe47135",
+    "session.py": "2aa95465cdb59ad46a910a5fb444bd79e5fb5869e98157a1873ee870e2ed6f85"
+  },
+  "disputed": 7,
+  "grade_seconds": 341.624858379364,
+  "image": "sha256:df18428df8a0f9189c84e7424d214b4c50092af1f9dca5842a00c41c39bda316",
+  "model_weights": {
+    "files": [
+      {
+        "blobId": "450c017b519c36c3e89d7ce124b1640d20bf9dae",
+        "lfs": {
+          "pointerSize": 136,
+          "sha256": "4ad960d180b16f56024f5b704697e5dd5b0837167c2e515ef0569abfc599743c",
+          "size": 32483931648
+        },
+        "rfilename": "Qwen3-30B-A3B-Q8_0.gguf",
+        "size": 32483931648
+      }
+    ],
+    "repo": "Qwen/Qwen3-30B-A3B-GGUF",
+    "revision": "e4d4bafdfb96a411a163846265362aceb0b9c63a"
+  },
+  "native_binary_sha256": "399ff69c431c066e40de318fba45c2b07f45a76b19939d247ee4828fc70c4215",
+  "paired": {
+    "both": 0,
+    "boundary_only": 2,
+    "neither": 45,
+    "plain_only": 1
+  },
+  "reference_sha256": {
+    "DE-01": "8bb738a0df63145b62da2bf9cd18977e27201b3a9f06df74e5592dbec6ccd026",
+    "DE-02": "d1f55a0ac526bd7f7669ca5c78ae5f065d7df191a6b6a6a9344620a0c078cfbf",
+    "DE-03": "e9951867d11807249e8e3be8ae61ce67ce2095da09ee882b390f0808d13a1397",
+    "DE-04": "9587c0c944c1c7444b97374370fc75c9c78fb887dffe4c2cb7ad16bf0961cdff",
+    "MO-01": "1e08f2044cfd6cfcf6bd85c19853bcfd1018f88bb639acf10bf3753cc3432d62",
+    "MO-02": "facf16c94fbec454df7ac2c3a88c373768aefd283539fe7f088f5c53e1ceea5d",
+    "MO-03": "ff52e400599a8197adf73ddb7a33efb21cbd973d8bd0dbde6d371f67418ee5b5",
+    "MO-04": "1fec2d850b10888d5a1d92b170477bb0192f054fe5bf13a0291d8b364459cf56",
+    "RV-01": "e6d775c290325d2564c02c19052af44b7cb7c7ea561886267d4254acbab2b640",
+    "RV-02": "75f6d1bd46be93e9bd2eb58d6010fe7326ea99fcef839ffdf98c1c0a4b21a63a",
+    "RV-03": "5d936501991983e65c2615ca4dd09ac270909dea82069dd76d9e0ced4a71d7c6",
+    "RV-04": "10c2b89a9dfd9c105cfb4ab9c099c3825acde76330ba3d30d6104ed4b2294190",
+    "SC-01": "ed26b04a754922ac74d93e3b8887d96c7ec4fc2ff9aeddaf0af56677a9d7eb26",
+    "SC-02": "3b463760dee970633e3f817ad428481bfb1ced683b66d43c85efba200975445a",
+    "SC-03": "61da51483bf2610c9691061d3ffec7c3c2dbd9f0b7be977fd903c3e5ab943799",
+    "SC-04": "6ef7653e6c449a8dbcd79674d82345a7fe1ce497695673b570429e15078a0955",
+    "SV-01": "c7ec57372824623fc1641848a776733a387677db542e8b3bffc9f2f26c02ba0c",
+    "SV-02": "ccde5ee54e69039e1710872db03311c746889586f6191e387f521d588875d194",
+    "SV-03": "d598d91b0e280b09f925450aa9e57e0bd2e2e54ce8fe5b423853da0bbd02f24c",
+    "SV-04": "63e34a9ac628318acab2503496feb34b6802c9ade88d33942cf8f5827881e3b8",
+    "VA-01": "994cfba38492806255c691353e67042c91a6351d38691ed1a2104abb63da9fe2",
+    "VA-02": "7bbeacfecc76be1fbb35e80526aefabdb860864a107cce7101ace70a9f2a6dde",
+    "VA-03": "5031e0108b52e86e3d1c1cadc61970e1540a855ce9ba40efb264d8a771f1e96b",
+    "VA-04": "35440144bec40565e62570b1175c9c71543332dc96f9f81beb30c5b5e832da42"
+  },
+  "review_seal": {
+    "external": {
+      "model": "gpt-6.2-astra",
+      "request_sha256": "4b1efad8de0dcd52976c2757a0c68774d9469f0d578ebf55281a82512b0c7aa8",
+      "reviewer": "GPT-6.2 Astra Batch blinded FR24 pilot",
+      "verdicts_sha256": "22afa5d9b7fc2c2562b8a8e6b7736324a203698a3099872fcde0ad808b144b42"
+    },
+    "first_passes": [
+      "55c382688adb181cf7439f72fd8958398e5f420a618078552f8f1dc8e6f367f2",
+      "fc2f24396164e7d002a28379e2acd0995f1c2cbcda1bb781cadead120fbc1c25"
+    ],
+    "key": "3b9d3738450566457bfe46adb02d84c5fa29cf19818032aa2520d83711e58009",
+    "model": "deepseek-flash",
+    "packet": "beaafe4af6fb5a8fc32eb0c227e83d9c0037470a519da5c3a0d3b2caf967befe",
+    "request": "4b1efad8de0dcd52976c2757a0c68774d9469f0d578ebf55281a82512b0c7aa8",
+    "sha256": "148250c38796305bdd99ac5c281887914e6567680405d2ac6e95309c4fcca19d",
+    "version": "d81175d95a49b0aff083f95ff8a542819982f65993e4757b1baf4e983bfd0e81"
+  },
+  "run_freeze_sha256": "4196b0469a5639a556a8adfc877eeb2413a447b5823f8a219f6255e14ebde8d8",
+  "sample_reversals": 0,
+  "sampled": 5,
+  "schedule_sha256": "88d1f2f6612910bb26e4ddada91eca11bb0bc52a9485878138bc1144df2b4d99",
+  "template_sha256": "ca917598d3b1aaf5ec0bdce0c23f2e31ae3c7eddffad8d2bfbd3461f37f8f3ae",
+  "tool_projection_sha256": "a446fff9958795cc288f73e298c34e0fcd9c3abc1ba55f53643f50515bd14a32",
+  "wall_seconds": 21637.17204475403
+}
