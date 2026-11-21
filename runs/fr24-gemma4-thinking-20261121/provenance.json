@@ -1,0 +1,92 @@
+{
+  "accepted_adjudications": 36,
+  "adjudication_model": "gpt-6.2-astra",
+  "audited": 8,
+  "disputed": 28,
+  "measurement_span_hours": 4.074156857265367,
+  "model_configurations": {
+    "12b": {
+      "adapter_sha256": "d7cab3720091d2dbda8ffe0e5ed16b2a5b741669017feb132a79d98a2e4c2382",
+      "cell_output_budget": 65536,
+      "compaction_trigger": 48000,
+      "configured_server_sha256": "b50d12a2757a1e6e234862fef72399dc15a072452b7a53358b3e94bb8fa8c731",
+      "context_window": 65536,
+      "model": "Gemma-4-12B",
+      "packet_manifest_sha256": "a9fe53eb63d5a606f1bbae4ce43e3353d704e6f7265797ad53d715cdb5cecd41",
+      "per_request_seed_base": {
+        "1": 3411,
+        "2": 13411
+      },
+      "prompt_review_sha256": "0db948bdd660ba191c055f1b8eeb223191d1191bd096230bcfd2ccd0029c234f",
+      "qualification_runner_sha256": "9236af82b5033d38c6866227120005508d9fb71dd9d13fcc76a84cbf2f6d086e",
+      "request_output_budget": 16384,
+      "runner_sha256": "0d25da1ca730adb178e5c880d73d9de598ac2554272ec6e21e589ed0bb9c46ed",
+      "wall_seconds": 3600,
+      "weights_sha256": "3730903965b3e57bcad0a387110322ce66409559c356a1ae1b61701024e5ce60"
+    },
+    "26b": {
+      "adapter_sha256": "d7cab3720091d2dbda8ffe0e5ed16b2a5b741669017feb132a79d98a2e4c2382",
+      "cell_output_budget": 65536,
+      "compaction_trigger": 48000,
+      "configured_server_sha256": "b50d12a2757a1e6e234862fef72399dc15a072452b7a53358b3e94bb8fa8c731",
+      "context_window": 65536,
+      "model": "Gemma-4-26B-A4B",
+      "packet_manifest_sha256": "a9fe53eb63d5a606f1bbae4ce43e3353d704e6f7265797ad53d715cdb5cecd41",
+      "per_request_seed_base": {
+        "1": 3411,
+        "2": 13411
+      },
+      "prompt_review_sha256": "0db948bdd660ba191c055f1b8eeb223191d1191bd096230bcfd2ccd0029c234f",
+      "qualification_runner_sha256": "9236af82b5033d38c6866227120005508d9fb71dd9d13fcc76a84cbf2f6d086e",
+      "request_output_budget": 16384,
+      "runner_sha256": "0d25da1ca730adb178e5c880d73d9de598ac2554272ec6e21e589ed0bb9c46ed",
+      "wall_seconds": 3600,
+      "weights_sha256": "b5108fd13147d1c866bb595295bc9d56f5fe744d7209f18421031d0cc47009c6"
+    }
+  },
+  "pre_dispatch_measurement_recoveries": 0,
+  "reference_sha256": {
+    "DE-01": "8bb738a0df63145b62da2bf9cd18977e27201b3a9f06df74e5592dbec6ccd026",
+    "DE-02": "d1f55a0ac526bd7f7669ca5c78ae5f065d7df191a6b6a6a9344620a0c078cfbf",
+    "DE-03": "e9951867d11807249e8e3be8ae61ce67ce2095da09ee882b390f0808d13a1397",
+    "DE-04": "9587c0c944c1c7444b97374370fc75c9c78fb887dffe4c2cb7ad16bf0961cdff",
+    "MO-01": "1e08f2044cfd6cfcf6bd85c19853bcfd1018f88bb639acf10bf3753cc3432d62",
+    "MO-02": "facf16c94fbec454df7ac2c3a88c373768aefd283539fe7f088f5c53e1ceea5d",
+    "MO-03": "ff52e400599a8197adf73ddb7a33efb21cbd973d8bd0dbde6d371f67418ee5b5",
+    "MO-04": "1fec2d850b10888d5a1d92b170477bb0192f054fe5bf13a0291d8b364459cf56",
+    "RV-01": "e6d775c290325d2564c02c19052af44b7cb7c7ea561886267d4254acbab2b640",
+    "RV-02": "75f6d1bd46be93e9bd2eb58d6010fe7326ea99fcef839ffdf98c1c0a4b21a63a",
+    "RV-03": "5d936501991983e65c2615ca4dd09ac270909dea82069dd76d9e0ced4a71d7c6",
+    "RV-04": "10c2b89a9dfd9c105cfb4ab9c099c3825acde76330ba3d30d6104ed4b2294190",
+    "SC-01": "ed26b04a754922ac74d93e3b8887d96c7ec4fc2ff9aeddaf0af56677a9d7eb26",
+    "SC-02": "3b463760dee970633e3f817ad428481bfb1ced683b66d43c85efba200975445a",
+    "SC-03": "61da51483bf2610c9691061d3ffec7c3c2dbd9f0b7be977fd903c3e5ab943799",
+    "SC-04": "6ef7653e6c449a8dbcd79674d82345a7fe1ce497695673b570429e15078a0955",
+    "SV-01": "c7ec57372824623fc1641848a776733a387677db542e8b3bffc9f2f26c02ba0c",
+    "SV-02": "ccde5ee54e69039e1710872db03311c746889586f6191e387f521d588875d194",
+    "SV-03": "d598d91b0e280b09f925450aa9e57e0bd2e2e54ce8fe5b423853da0bbd02f24c",
+    "SV-04": "63e34a9ac628318acab2503496feb34b6802c9ade88d33942cf8f5827881e3b8",
+    "VA-01": "994cfba38492806255c691353e67042c91a6351d38691ed1a2104abb63da9fe2",
+    "VA-02": "7bbeacfecc76be1fbb35e80526aefabdb860864a107cce7101ace70a9f2a6dde",
+    "VA-03": "5031e0108b52e86e3d1c1cadc61970e1540a855ce9ba40efb264d8a771f1e96b",
+    "VA-04": "35440144bec40565e62570b1175c9c71543332dc96f9f81beb30c5b5e832da42"
+  },
+  "review_seal": {
+    "external": {
+      "model": "gpt-6.2-astra",
+      "request_sha256": "8e5476f89f34264b1444df3707a44d6c253783451f2c8893da106779cbc79835",
+      "reviewer": "GPT-6.2 Astra Batch blinded FR24",
+      "verdicts_sha256": "96c6b2c6e7690d39d9662886e8ae24b4d865b7bf38144b7f6397ad187054ec51"
+    },
+    "first_passes": [
+      "25ee4c32ad158906c210c66185e583b1d8aa21ca71044a0fa813226a9cf50777",
+      "1bb1a7fdc00db7d800452c5235fabbc040a8830d269a26a587478f04d623262b"
+    ],
+    "key": "3d607f6362926f1ece4287ad31ea28f202c36fa8e33d04a21080d6a581a03e7c",
+    "model": "deepseek-flash",
+    "packet": "82452415fcd79d74886b79016f476a6922db309becbe38beb2b1fdf6d4adf845",
+    "request": "8e5476f89f34264b1444df3707a44d6c253783451f2c8893da106779cbc79835",
+    "sha256": "95f93d645d55027ae64a9a1d38df693e903ace8f7f18b243db4379a9b6c6404f",
+    "version": "d81175d95a49b0aff083f95ff8a542819982f65993e4757b1baf4e983bfd0e81"
+  }
+}

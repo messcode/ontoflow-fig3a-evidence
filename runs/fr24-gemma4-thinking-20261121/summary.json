@@ -1,0 +1,99 @@
+{
+  "arms": {
+    "12b-boundary": {
+      "arm": "boundary",
+      "cached_prompt_tokens": 5235134,
+      "calls": 420,
+      "completion_tokens": 527048,
+      "decision": 12,
+      "elapsed_seconds": 5929.51,
+      "evidence": 5,
+      "joint": 5,
+      "missing_usage": 0,
+      "model": "Gemma-4-12B-Q8_0-thinking",
+      "native_commands": 362,
+      "planned": 48,
+      "prompt_tokens": 6437963,
+      "submitted": 25,
+      "termination": {
+        "request_output_limit": 23
+      },
+      "total_tokens": 6965011
+    },
+    "12b-plain": {
+      "arm": "plain",
+      "cached_prompt_tokens": 7535471,
+      "calls": 533,
+      "completion_tokens": 672369,
+      "decision": 7,
+      "elapsed_seconds": 7155.82,
+      "evidence": 2,
+      "joint": 2,
+      "missing_usage": 0,
+      "model": "Gemma-4-12B-Q8_0-thinking",
+      "native_commands": 478,
+      "planned": 48,
+      "prompt_tokens": 8857521,
+      "submitted": 19,
+      "termination": {
+        "request_output_limit": 29
+      },
+      "total_tokens": 9529890
+    },
+    "26b-boundary": {
+      "arm": "boundary",
+      "cached_prompt_tokens": 10409571,
+      "calls": 708,
+      "completion_tokens": 823291,
+      "decision": 23,
+      "elapsed_seconds": 7320.4800000000005,
+      "evidence": 16,
+      "joint": 15,
+      "missing_usage": 0,
+      "model": "Gemma-4-26B-A4B-Q8_0-thinking",
+      "native_commands": 644,
+      "planned": 48,
+      "prompt_tokens": 11439086,
+      "submitted": 33,
+      "termination": {
+        "empty_provider_reply": 1,
+        "request_output_limit": 14
+      },
+      "total_tokens": 12262377
+    },
+    "26b-plain": {
+      "arm": "plain",
+      "cached_prompt_tokens": 9203690,
+      "calls": 666,
+      "completion_tokens": 885732,
+      "decision": 23,
+      "elapsed_seconds": 7220.47,
+      "evidence": 17,
+      "joint": 17,
+      "missing_usage": 0,
+      "model": "Gemma-4-26B-A4B-Q8_0-thinking",
+      "native_commands": 616,
+      "planned": 48,
+      "prompt_tokens": 10163618,
+      "submitted": 32,
+      "termination": {
+        "request_output_limit": 16
+      },
+      "total_tokens": 11049350
+    }
+  },
+  "pairs": {
+    "12b": {
+      "both": 0,
+      "boundary_only": 5,
+      "neither": 41,
+      "plain_only": 2
+    },
+    "26b": {
+      "both": 11,
+      "boundary_only": 4,
+      "neither": 27,
+      "plain_only": 6
+    }
+  }
+}

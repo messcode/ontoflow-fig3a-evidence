@@ -1,0 +1,294 @@
+{
+  "revision": "FR24-boundary-df8e63c601e99e38",
+  "slots": [
+    {
+      "case": "DE-01",
+      "group": "DE",
+      "replicate": "1",
+      "revision": "52bc70573897e3df1f44955e36f152de81cdd5426313e8ee071ea0776653237b"
+    },
+    {
+      "case": "DE-01",
+      "group": "DE",
+      "replicate": "2",
+      "revision": "52bc70573897e3df1f44955e36f152de81cdd5426313e8ee071ea0776653237b"
+    },
+    {
+      "case": "DE-02",
+      "group": "DE",
+      "replicate": "1",
+      "revision": "43306cc6c364504cd6e6a4620393de6e45248a2b8e832572ded6a9c92611c1f5"
+    },
+    {
+      "case": "DE-02",
+      "group": "DE",
+      "replicate": "2",
+      "revision": "43306cc6c364504cd6e6a4620393de6e45248a2b8e832572ded6a9c92611c1f5"
+    },
+    {
+      "case": "DE-03",
+      "group": "DE",
+      "replicate": "1",
+      "revision": "06d3d1677e14d9f225948d214e985e4ee1b1b16130d2fb5bafb36fe5686a735d"
+    },
+    {
+      "case": "DE-03",
+      "group": "DE",
+      "replicate": "2",
+      "revision": "06d3d1677e14d9f225948d214e985e4ee1b1b16130d2fb5bafb36fe5686a735d"
+    },
+    {
+      "case": "DE-04",
+      "group": "DE",
+      "replicate": "1",
+      "revision": "fc691a3de37939be2459a0b23d03c6f8e2df248c93909df3af375d948479aa00"
+    },
+    {
+      "case": "DE-04",
+      "group": "DE",
+      "replicate": "2",
+      "revision": "fc691a3de37939be2459a0b23d03c6f8e2df248c93909df3af375d948479aa00"
+    },
+    {
+      "case": "MO-01",
+      "group": "MO",
+      "replicate": "1",
+      "revision": "130a2503a954924b0189c0044d547f704b845f37c40ac28487a13d48a77f5c15"
+    },
+    {
+      "case": "MO-01",
+      "group": "MO",
+      "replicate": "2",
+      "revision": "130a2503a954924b0189c0044d547f704b845f37c40ac28487a13d48a77f5c15"
+    },
+    {
+      "case": "MO-02",
+      "group": "MO",
+      "replicate": "1",
+      "revision": "7718a5baf16479fdbb04f2dc2901f6c39650db1621cceb5eec8b27467ef7ce3d"
+    },
+    {
+      "case": "MO-02",
+      "group": "MO",
+      "replicate": "2",
+      "revision": "7718a5baf16479fdbb04f2dc2901f6c39650db1621cceb5eec8b27467ef7ce3d"
+    },
+    {
+      "case": "MO-03",
+      "group": "MO",
+      "replicate": "1",
+      "revision": "0fc0ac725875ee0f2129f4333ca0c7122c1f4cbc184c31dac13c9968f07bf948"
+    },
+    {
+      "case": "MO-03",
+      "group": "MO",
+      "replicate": "2",
+      "revision": "0fc0ac725875ee0f2129f4333ca0c7122c1f4cbc184c31dac13c9968f07bf948"
+    },
+    {
+      "case": "MO-04",
+      "group": "MO",
+      "replicate": "1",
+      "revision": "bff5d039da2756b7e9648f6b9b216ca7493123602e4fd281c01163731d5faaf6"
+    },
+    {
+      "case": "MO-04",
+      "group": "MO",
+      "replicate": "2",
+      "revision": "bff5d039da2756b7e9648f6b9b216ca7493123602e4fd281c01163731d5faaf6"
+    },
+    {
+      "case": "RV-01",
+      "group": "RV",
+      "replicate": "1",
+      "revision": "643d0c42630b1939e8bd076852de3675d44b7ad42d8c3a58edea5bd0be2ae9e8"
+    },
+    {
+      "case": "RV-01",
+      "group": "RV",
+      "replicate": "2",
+      "revision": "643d0c42630b1939e8bd076852de3675d44b7ad42d8c3a58edea5bd0be2ae9e8"
+    },
+    {
+      "case": "RV-02",
+      "group": "RV",
+      "replicate": "1",
+      "revision": "5c671c8c428164d6c5164e3fbdc7511153a9671aa48e3caec950ea758fecea4c"
+    },
+    {
+      "case": "RV-02",
+      "group": "RV",
+      "replicate": "2",
+      "revision": "5c671c8c428164d6c5164e3fbdc7511153a9671aa48e3caec950ea758fecea4c"
+    },
+    {
+      "case": "RV-03",
+      "group": "RV",
+      "replicate": "1",
+      "revision": "7efbbbeb077acda04bccc209762e267b5158c4988eb60927b215bba32833fa6e"
+    },
+    {
+      "case": "RV-03",
+      "group": "RV",
+      "replicate": "2",
+      "revision": "7efbbbeb077acda04bccc209762e267b5158c4988eb60927b215bba32833fa6e"
+    },
+    {
+      "case": "RV-04",
+      "group": "RV",
+      "replicate": "1",
+      "revision": "6fa00f29111dd1b1ebc70320fce50fdfc11afa1a04434e93cd6ae11ea8b35172"
+    },
+    {
+      "case": "RV-04",
+      "group": "RV",
+      "replicate": "2",
+      "revision": "6fa00f29111dd1b1ebc70320fce50fdfc11afa1a04434e93cd6ae11ea8b35172"
+    },
+    {
+      "case": "SC-01",
+      "group": "SC",
+      "replicate": "1",
+      "revision": "720ce69358e791ab91fb0ea73e4318a39d9bb3fe646b4fb593519d0a96c76fad"
+    },
+    {
+      "case": "SC-01",
+      "group": "SC",
+      "replicate": "2",
+      "revision": "720ce69358e791ab91fb0ea73e4318a39d9bb3fe646b4fb593519d0a96c76fad"
+    },
+    {
+      "case": "SC-02",
+      "group": "SC",
+      "replicate": "1",
+      "revision": "2696dd5b22461f185a9f91005c305dcb13801f555114b1337ce97d5ee1dcac40"
+    },
+    {
+      "case": "SC-02",
+      "group": "SC",
+      "replicate": "2",
+      "revision": "2696dd5b22461f185a9f91005c305dcb13801f555114b1337ce97d5ee1dcac40"
+    },
+    {
+      "case": "SC-03",
+      "group": "SC",
+      "replicate": "1",
+      "revision": "b17d615830ec3b76178c144fdf3d7fe1b6dc6be5b2d89256d032e0fdb258da25"
+    },
+    {
+      "case": "SC-03",
+      "group": "SC",
+      "replicate": "2",
+      "revision": "b17d615830ec3b76178c144fdf3d7fe1b6dc6be5b2d89256d032e0fdb258da25"
+    },
+    {
+      "case": "SC-04",
+      "group": "SC",
+      "replicate": "1",
+      "revision": "9d0e8c5df5e5b06b1bae6de111aea4ed0f1b14d5133063344d857b3ac4035604"
+    },
+    {
+      "case": "SC-04",
+      "group": "SC",
+      "replicate": "2",
+      "revision": "9d0e8c5df5e5b06b1bae6de111aea4ed0f1b14d5133063344d857b3ac4035604"
+    },
+    {
+      "case": "SV-01",
+      "group": "SV",
+      "replicate": "1",
+      "revision": "0aa248ed024cb37e9bed7384d4f2c8d452f28d5282b6f6af200512a58900f71b"
+    },
+    {
+      "case": "SV-01",
+      "group": "SV",
+      "replicate": "2",
+      "revision": "0aa248ed024cb37e9bed7384d4f2c8d452f28d5282b6f6af200512a58900f71b"
+    },
+    {
+      "case": "SV-02",
+      "group": "SV",
+      "replicate": "1",
+      "revision": "6df42a6b0c5693a38b7e22fc38010e7bb1c126b2373c48a3aa3e969da95d6501"
+    },
+    {
+      "case": "SV-02",
+      "group": "SV",
+      "replicate": "2",
+      "revision": "6df42a6b0c5693a38b7e22fc38010e7bb1c126b2373c48a3aa3e969da95d6501"
+    },
+    {
+      "case": "SV-03",
+      "group": "SV",
+      "replicate": "1",
+      "revision": "ac5c94a585b1e9d6f9882f7301f57ccce9d8d974f3b5839c0c0b1d4d4a6b97f6"
+    },
+    {
+      "case": "SV-03",
+      "group": "SV",
+      "replicate": "2",
+      "revision": "ac5c94a585b1e9d6f9882f7301f57ccce9d8d974f3b5839c0c0b1d4d4a6b97f6"
+    },
+    {
+      "case": "SV-04",
+      "group": "SV",
+      "replicate": "1",
+      "revision": "b11fb8e88c1e888a7d8f30926dab48015ca7a13fbda8e2fb9336978518342899"
+    },
+    {
+      "case": "SV-04",
+      "group": "SV",
+      "replicate": "2",
+      "revision": "b11fb8e88c1e888a7d8f30926dab48015ca7a13fbda8e2fb9336978518342899"
+    },
+    {
+      "case": "VA-01",
+      "group": "VA",
+      "replicate": "1",
+      "revision": "283385e79380c6952eb60e8dc6fdd3b6cdfcc830817ca182a8255944a612c66d"
+    },
+    {
+      "case": "VA-01",
+      "group": "VA",
+      "replicate": "2",
+      "revision": "283385e79380c6952eb60e8dc6fdd3b6cdfcc830817ca182a8255944a612c66d"
+    },
+    {
+      "case": "VA-02",
+      "group": "VA",
+      "replicate": "1",
+      "revision": "06b84d07eba7d4214225807467fddd6ef99848dc28ac3dfead1fea3248af5743"
+    },
+    {
+      "case": "VA-02",
+      "group": "VA",
+      "replicate": "2",
+      "revision": "06b84d07eba7d4214225807467fddd6ef99848dc28ac3dfead1fea3248af5743"
+    },
+    {
+      "case": "VA-03",
+      "group": "VA",
+      "replicate": "1",
+      "revision": "0da5ece74836b90dbbc6b059af1e89b7556d2e93270379acbe9ba4053f4a4c7d"
+    },
+    {
+      "case": "VA-03",
+      "group": "VA",
+      "replicate": "2",
+      "revision": "0da5ece74836b90dbbc6b059af1e89b7556d2e93270379acbe9ba4053f4a4c7d"
+    },
+    {
+      "case": "VA-04",
+      "group": "VA",
+      "replicate": "1",
+      "revision": "732816939994eabfdd5e8a939e4dd8406b53acbb19aa604f6487a2c559ab48a5"
+    },
+    {
+      "case": "VA-04",
+      "group": "VA",
+      "replicate": "2",
+      "revision": "732816939994eabfdd5e8a939e4dd8406b53acbb19aa604f6487a2c559ab48a5"
+    }
+  ],
+  "track": "fig3a"
+}
