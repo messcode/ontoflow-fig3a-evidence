@@ -1,0 +1,49 @@
+{
+  "reference_coverage": {
+    "cases": 6,
+    "cells_per_arm": 6,
+    "reference_cases": 24,
+    "reference_cells_per_arm": 48
+  },
+  "revision": "FR24-gemma4-state-pilot-4b2a336d986b0d21",
+  "scope": "Six preselected FR24 development cases, one repeat per arm",
+  "slots": [
+    {
+      "case": "DE-02",
+      "group": "DE",
+      "replicate": "1",
+      "revision": "43306cc6c364504cd6e6a4620393de6e45248a2b8e832572ded6a9c92611c1f5"
+    },
+    {
+      "case": "MO-01",
+      "group": "MO",
+      "replicate": "1",
+      "revision": "130a2503a954924b0189c0044d547f704b845f37c40ac28487a13d48a77f5c15"
+    },
+    {
+      "case": "RV-04",
+      "group": "RV",
+      "replicate": "1",
+      "revision": "6fa00f29111dd1b1ebc70320fce50fdfc11afa1a04434e93cd6ae11ea8b35172"
+    },
+    {
+      "case": "SC-01",
+      "group": "SC",
+      "replicate": "1",
+      "revision": "720ce69358e791ab91fb0ea73e4318a39d9bb3fe646b4fb593519d0a96c76fad"
+    },
+    {
+      "case": "SV-04",
+      "group": "SV",
+      "replicate": "1",
+      "revision": "b11fb8e88c1e888a7d8f30926dab48015ca7a13fbda8e2fb9336978518342899"
+    },
+    {
+      "case": "VA-03",
+      "group": "VA",
+      "replicate": "1",
+      "revision": "0da5ece74836b90dbbc6b059af1e89b7556d2e93270379acbe9ba4053f4a4c7d"
+    }
+  ],
+  "track": "fig3a"
+}

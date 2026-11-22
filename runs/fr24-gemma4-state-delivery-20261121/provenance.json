@@ -1,0 +1,296 @@
+{
+  "arbitration": {
+    "audited": 1,
+    "completed": 5,
+    "disputed": 4,
+    "model": "gpt-6.2-astra"
+  },
+  "arms": {
+    "active": {
+      "cached_prompt_tokens": 720729,
+      "cells_with_confirmed_injection": 6,
+      "completion_tokens": 97829,
+      "confirmed_injection_turns": 6,
+      "delivery_events": {
+        "initial": 6,
+        "no_trailing_shell_result": 6,
+        "unchanged": 51
+      },
+      "elapsed_seconds": 705.52,
+      "missing_usage": 0,
+      "model_calls": 63,
+      "passed": 2,
+      "planned": 6,
+      "pre_dispatch": 0,
+      "prompt_tokens": 831426,
+      "submitted": 5,
+      "total_tokens": 929255
+    },
+    "passive": {
+      "cached_prompt_tokens": 706960,
+      "cells_with_confirmed_injection": 0,
+      "completion_tokens": 86933,
+      "confirmed_injection_turns": 0,
+      "delivery_events": {},
+      "elapsed_seconds": 629.41,
+      "missing_usage": 0,
+      "model_calls": 64,
+      "passed": 1,
+      "planned": 6,
+      "pre_dispatch": 0,
+      "prompt_tokens": 807823,
+      "submitted": 5,
+      "total_tokens": 894756
+    }
+  },
+  "event": {
+    "adjudicated_sha256": "71dd32ce49260693a9b568eb477759c26b596c70d24bc2b44e334508d61eafb8",
+    "archive_sha256": "71ff9d1421e585c6371afa7d4ed86423dc923f30a87a9ae650e58445a16d5cb8",
+    "reference_sha256": {
+      "DE-02": "d1f55a0ac526bd7f7669ca5c78ae5f065d7df191a6b6a6a9344620a0c078cfbf",
+      "MO-01": "1e08f2044cfd6cfcf6bd85c19853bcfd1018f88bb639acf10bf3753cc3432d62",
+      "RV-04": "10c2b89a9dfd9c105cfb4ab9c099c3825acde76330ba3d30d6104ed4b2294190",
+      "SC-01": "ed26b04a754922ac74d93e3b8887d96c7ec4fc2ff9aeddaf0af56677a9d7eb26",
+      "SV-04": "63e34a9ac628318acab2503496feb34b6802c9ade88d33942cf8f5827881e3b8",
+      "VA-03": "5031e0108b52e86e3d1c1cadc61970e1540a855ce9ba40efb264d8a771f1e96b"
+    },
+    "review_cases": {
+      "DE-02": {
+        "example_injection_sha256": "99f6eab795f2d3a5c88735f23862f2f95e98b9e53f29c28535bfa4794b732399",
+        "initial_prompt_sha256": "bba84f74662abe9824517fbaa17e0dce4a776f185edb5a53e728c1f16672b589",
+        "initial_state_sha256": "7ae6578e3756d6713df9c59931cf9c966117be48ee38fefdf550fcc56d33b424"
+      },
+      "MO-01": {
+        "example_injection_sha256": "78ae9ce10785f54b6590b61fb039dc5e22031fd352af1f0c82799b44d35030e4",
+        "initial_prompt_sha256": "1a88cefff91b7862a19c98076d3b25a96615723f5d89c350fcb894563ad42e83",
+        "initial_state_sha256": "0252b4b9a08af9484c9533a50e8a6421c1a4045cb8221747b2c5b8dcb7b39717"
+      },
+      "RV-04": {
+        "example_injection_sha256": "86a740b1b6ea7fb83839f18a804e378a8e5bc37441bfbfcd08f1123f8ee2815d",
+        "initial_prompt_sha256": "5d23e0a91d3a6002a37f1b9b1e1192bcc0be2e7212b2aa18d4ee106de0425ab8",
+        "initial_state_sha256": "b356e90246b259c8655aaa1a9a1ba497389e187679d863e74dbeb1493ab81a08"
+      },
+      "SC-01": {
+        "example_injection_sha256": "c790f9a20677e6792d7e9c8faa01b33412bd7eff7125563442b8e938fc73e560",
+        "initial_prompt_sha256": "23cef3b8a6974178ac3d3c6f2210b115c084482268fb9cdec2b1f836300706c5",
+        "initial_state_sha256": "22de385dac5d7d07ec373385d880168c923f1c4506b35b1da62fef49292d5078"
+      },
+      "SV-04": {
+        "example_injection_sha256": "5f1717b3789a4d9f484c311f6970aaa82e16706f2f3def59624aad5bc95ad99a",
+        "initial_prompt_sha256": "1572b4028c9d67af9671889742b10409141b14fcded5becc275e55df70daadae",
+        "initial_state_sha256": "e3373fa2354ae31675755ef9b4b44ba4283d711fc99005a012042ada4b8c1588"
+      },
+      "VA-03": {
+        "example_injection_sha256": "368f3abf7f280122efb3960cc742e8cd5141fa9d73cc8a01170c37ff3e65b3c1",
+        "initial_prompt_sha256": "9aa46e0c12917c6c2573e0d353b474de5d6b2df989662f3ff55a3e7e282120aa",
+        "initial_state_sha256": "563baaa6a4f25c919b2d6cbbad915affd811d504057f8909d8d913ae348056bd"
+      }
+    },
+    "review_file_sha256": "364fe68de0d136f1bab30fc4bd08704e07783691421fffc1be06e60610f4686b",
+    "runtime_sha256": {
+      "ablation.py": "45a26bbcd4b1314ff222d94a143f1e4b13e4ab3fb57841d03f6806dc93631eb4",
+      "candidate/compat.py": "a446fff9958795cc288f73e298c34e0fcd9c3abc1ba55f53643f50515bd14a32",
+      "candidate/context_budget.py": "80b83a2cade6fa3a4571dd49bb7e4b4824878514fb8824d909743adc43faa227",
+      "candidate/pilot.py": "80731ccc2cb7523d95f6bbb7a82c4e4e2600ab1fcad3269b85253a10cf54b8e0",
+      "candidate/prompt_identity.py": "bcdb9ce57bb2d5423f268884693674fc362b8e61e113c873b602a430465082c9",
+      "candidate/remote_adapter.py": "8aeb6ed446e42935560ac3b9c6842a6a486fe2623673dce0d1366a90c5f7773c",
+      "candidate/state_delivery.py": "2126d722912db133d63162c061d87f3676c2b931749e11c9ef5f7a6c1841d464"
+    },
+    "score_hashes": {
+      "adjudicated.json": "71dd32ce49260693a9b568eb477759c26b596c70d24bc2b44e334508d61eafb8",
+      "arbitration-request.json": "6a67c7e78f9d7ee83bdd6e1eca5d41e7cb0b6b506c26e4a6642c0c2c870939de",
+      "astra/output.jsonl": "5f082b5b40814f54155228b57f4f7aa46c139e879fa06756c9a4691e8c9b1a45",
+      "review-seal.json": "3dddb8967cbd47f86cb95278c8606a95c929b171a7eb49321f6d5c756a721f4a",
+      "scores.json": "f087a571c221e2cef821999ebbfd3fb9728a029283dee55df1a4e26fac70297b",
+      "sealed-arbitration.json": "fef2ef7a5de1d8b3e613c6241483304a6e54412bcc8339c38eb5c50997da44c9"
+    },
+    "scorer_revision": "d81175d95a49b0aff083f95ff8a542819982f65993e4757b1baf4e983bfd0e81"
+  },
+  "event_run_config": {
+    "completion_budget": 65536,
+    "context_window": 65536,
+    "model": "Gemma-4-26B-A4B",
+    "per_request_limit": 16384,
+    "review_sha256": "364fe68de0d136f1bab30fc4bd08704e07783691421fffc1be06e60610f4686b",
+    "schedule": [
+      [
+        "SC-01",
+        "passive"
+      ],
+      [
+        "SC-01",
+        "active"
+      ],
+      [
+        "MO-01",
+        "active"
+      ],
+      [
+        "MO-01",
+        "passive"
+      ],
+      [
+        "SV-04",
+        "active"
+      ],
+      [
+        "SV-04",
+        "passive"
+      ],
+      [
+        "VA-03",
+        "active"
+      ],
+      [
+        "VA-03",
+        "passive"
+      ],
+      [
+        "RV-04",
+        "passive"
+      ],
+      [
+        "RV-04",
+        "active"
+      ],
+      [
+        "DE-02",
+        "passive"
+      ],
+      [
+        "DE-02",
+        "active"
+      ]
+    ],
+    "seed_base": 3411,
+    "wall_seconds": 3600
+  },
+  "pair_outcomes": {
+    "active_only": 2,
+    "both": 0,
+    "neither": 3,
+    "passive_only": 1
+  },
+  "prior_every_shell": {
+    "adjudicated_sha256": "c233639eef27f98f81c6a45a8d160f25910caf0183e34768b80f0433d8ad5b9a",
+    "archive_sha256": "110a46307cbd35921ae05771067792d3c96005b6a273e3b082a3206cd9440007",
+    "reference_sha256": {
+      "DE-02": "d1f55a0ac526bd7f7669ca5c78ae5f065d7df191a6b6a6a9344620a0c078cfbf",
+      "MO-01": "1e08f2044cfd6cfcf6bd85c19853bcfd1018f88bb639acf10bf3753cc3432d62",
+      "RV-04": "10c2b89a9dfd9c105cfb4ab9c099c3825acde76330ba3d30d6104ed4b2294190",
+      "SC-01": "ed26b04a754922ac74d93e3b8887d96c7ec4fc2ff9aeddaf0af56677a9d7eb26",
+      "SV-04": "63e34a9ac628318acab2503496feb34b6802c9ade88d33942cf8f5827881e3b8",
+      "VA-03": "5031e0108b52e86e3d1c1cadc61970e1540a855ce9ba40efb264d8a771f1e96b"
+    },
+    "review_cases": {
+      "DE-02": {
+        "example_injection_sha256": "99f6eab795f2d3a5c88735f23862f2f95e98b9e53f29c28535bfa4794b732399",
+        "initial_prompt_sha256": "bba84f74662abe9824517fbaa17e0dce4a776f185edb5a53e728c1f16672b589",
+        "initial_state_sha256": "7ae6578e3756d6713df9c59931cf9c966117be48ee38fefdf550fcc56d33b424"
+      },
+      "MO-01": {
+        "example_injection_sha256": "78ae9ce10785f54b6590b61fb039dc5e22031fd352af1f0c82799b44d35030e4",
+        "initial_prompt_sha256": "1a88cefff91b7862a19c98076d3b25a96615723f5d89c350fcb894563ad42e83",
+        "initial_state_sha256": "0252b4b9a08af9484c9533a50e8a6421c1a4045cb8221747b2c5b8dcb7b39717"
+      },
+      "RV-04": {
+        "example_injection_sha256": "86a740b1b6ea7fb83839f18a804e378a8e5bc37441bfbfcd08f1123f8ee2815d",
+        "initial_prompt_sha256": "5d23e0a91d3a6002a37f1b9b1e1192bcc0be2e7212b2aa18d4ee106de0425ab8",
+        "initial_state_sha256": "b356e90246b259c8655aaa1a9a1ba497389e187679d863e74dbeb1493ab81a08"
+      },
+      "SC-01": {
+        "example_injection_sha256": "c790f9a20677e6792d7e9c8faa01b33412bd7eff7125563442b8e938fc73e560",
+        "initial_prompt_sha256": "23cef3b8a6974178ac3d3c6f2210b115c084482268fb9cdec2b1f836300706c5",
+        "initial_state_sha256": "22de385dac5d7d07ec373385d880168c923f1c4506b35b1da62fef49292d5078"
+      },
+      "SV-04": {
+        "example_injection_sha256": "5f1717b3789a4d9f484c311f6970aaa82e16706f2f3def59624aad5bc95ad99a",
+        "initial_prompt_sha256": "1572b4028c9d67af9671889742b10409141b14fcded5becc275e55df70daadae",
+        "initial_state_sha256": "e3373fa2354ae31675755ef9b4b44ba4283d711fc99005a012042ada4b8c1588"
+      },
+      "VA-03": {
+        "example_injection_sha256": "368f3abf7f280122efb3960cc742e8cd5141fa9d73cc8a01170c37ff3e65b3c1",
+        "initial_prompt_sha256": "9aa46e0c12917c6c2573e0d353b474de5d6b2df989662f3ff55a3e7e282120aa",
+        "initial_state_sha256": "563baaa6a4f25c919b2d6cbbad915affd811d504057f8909d8d913ae348056bd"
+      }
+    },
+    "review_file_sha256": "be04c066bebee406c5bf3ec935446454135db52db6911706f70bcb4c8fc0d4a1",
+    "runtime_sha256": {
+      "ablation.py": "b7b5958b6f5fe29e91e300f724ac4474a1e13fdc5701d5d90071aae64eacea36",
+      "candidate/compat.py": "a446fff9958795cc288f73e298c34e0fcd9c3abc1ba55f53643f50515bd14a32",
+      "candidate/context_budget.py": "ae240647612a1af3e8afa5e233173b7514b33040390868231ac3c0e3d424d395",
+      "candidate/pilot.py": "f823ee09f3f7647257dbaae818591b2444d1e1e2dc623261712953462c447a98",
+      "candidate/prompt_identity.py": "bcdb9ce57bb2d5423f268884693674fc362b8e61e113c873b602a430465082c9",
+      "candidate/remote_adapter.py": "ee1cc68d780f87a8de030911e8822748851a8cf5e1e3262841ee27c938afbfa6",
+      "candidate/state_delivery.py": "c82bbb7484355798be7539e971eb07a02c396145012843c490a85bdf86c67935"
+    },
+    "score_hashes": {
+      "adjudicated.json": "c233639eef27f98f81c6a45a8d160f25910caf0183e34768b80f0433d8ad5b9a",
+      "arbitration-request.json": "55ff19550493e2a045a602fcb2d360f025ea74f5f011142aff7797033975685d",
+      "astra/output.jsonl": "0bfe001f533c09fb5f6f03930e9eb04bac9f4fc657cfd645deeb9b327895f001",
+      "review-seal.json": "c9632b062d46ad1de438a03529876276c3ab3bf8c652a311ea426a2671015917",
+      "scores.json": "90dcd7a8756fad7c534f0bec1a4bf736657bf7fe75d16dfd3298d84d4fd60d00",
+      "sealed-arbitration.json": "6b47f37789bea76daa54c627c21c804f0e45a1c5122a3054dab231002a792a6e"
+    },
+    "scorer_revision": "d81175d95a49b0aff083f95ff8a542819982f65993e4757b1baf4e983bfd0e81"
+  },
+  "prior_run_config": {
+    "completion_budget": 65536,
+    "context_window": 65536,
+    "model": "Gemma-4-26B-A4B",
+    "per_request_limit": 16384,
+    "review_sha256": "be04c066bebee406c5bf3ec935446454135db52db6911706f70bcb4c8fc0d4a1",
+    "schedule": [
+      [
+        "SC-01",
+        "passive"
+      ],
+      [
+        "SC-01",
+        "active"
+      ],
+      [
+        "MO-01",
+        "active"
+      ],
+      [
+        "MO-01",
+        "passive"
+      ],
+      [
+        "SV-04",
+        "active"
+      ],
+      [
+        "SV-04",
+        "passive"
+      ],
+      [
+        "VA-03",
+        "active"
+      ],
+      [
+        "VA-03",
+        "passive"
+      ],
+      [
+        "RV-04",
+        "passive"
+      ],
+      [
+        "RV-04",
+        "active"
+      ],
+      [
+        "DE-02",
+        "passive"
+      ],
+      [
+        "DE-02",
+        "active"
+      ]
+    ],
+    "seed_base": 3411,
+    "wall_seconds": 3600
+  }
+}

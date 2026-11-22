@@ -1,0 +1,12 @@
+{
+  "active": {
+    "path": "scores/FR24-gemma4-26b-state-event-20261121-active-I-astra62-71dd32ce4926/manifest.json",
+    "score": "FR24-gemma4-26b-state-event-20261121-active-I-astra62-71dd32ce4926",
+    "sha256": "a922c8559c195ed8323223b3b195afe88c673ca91bfe579e5f9df9fa526962eb"
+  },
+  "passive": {
+    "path": "scores/FR24-gemma4-26b-state-event-20261121-passive-I-astra62-71dd32ce4926/manifest.json",
+    "score": "FR24-gemma4-26b-state-event-20261121-passive-I-astra62-71dd32ce4926",
+    "sha256": "1e38552a997a0f4bd9b6613f9ffed6635f926fb7458752b9ea1f451f977803eb"
+  }
+}
